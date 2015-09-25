@@ -1,0 +1,317 @@
+= Angular Faq
+
+== Service, Factory, Constant, Value, Provider
+
+==== What the difference between ?
+
+http://www.frangular.com/2012/12/differentes-facons-de-creer-un-service-angularjs.html
+
+http://blog.thoughtram.io/angular/2015/07/07/service-vs-factory-once-and-for-all.html
+
+===== Provider
+
+Un provider permet d'instancier son service associé. Tous deux sont des singletons.
+
+** The provider definition
+
+[source, javascript]
+---------------------------------------------------------------------
+(function() {
+  'use strict';
+
+  angular  
+    .module('my.awesome.module')
+    .provider('fooService', fooProvider);
+
+  function fooProvider() {
+    var config = {
+      param1: '',
+      param2: ''
+    };
+
+    this.setParam1 = function (param1) {
+      config.param1 = param1;
+    };
+
+    this.setParam2 = function (param2) {
+      config.param2 = param2;
+    };
+
+    this.$get = function ($rootScope, $log) {
+      var provider = {
+        providerFunc1 : providerFunc1,
+        providerFunc2 : providerFunc2
+      };
+
+      return provider;
+
+      function providerFunc1() {
+        return 'Param1 : ' + config.param1;
+      };
+
+      function providerFunc2() {
+        return 'Param2 : ' + config.param2;
+      };
+      
+    };
+  });
+}
+)();
+---------------------------------------------------------------------
+
+** Configure the provider
+
+[source, javascript]
+---------------------------------------------------------------------
+(function() {
+  'use strict';
+
+  angular
+    .module('my.fabulous.module')
+    .config(config);
+
+  function config(fooProvider){
+    fooProvider.setParam1('Funky');
+    fooProvider.setParam2('Rocky');
+  }
+
+})();
+---------------------------------------------------------------------
+
+** Use the provider
+
+[source, javascript]
+---------------------------------------------------------------------
+app.controller('AppController', function (fooService) {
+  fooService.providerFunc1(); // logs 'hello'
+});
+---------------------------------------------------------------------
+
+
+===== Service
+
+Ci-dessous, comment Angular crée un service :
+[source, javascript]
+---------------------------------------------------------------------
+function service(name, constructor) {
+    return factory(name, ['$injector', function($injector) {
+        return $injector.instantiate(constructor);
+    }]);
+}
+---------------------------------------------------------------------
+
+
+[source, javascript]
+---------------------------------------------------------------------
+app.service('myService', function() {
+
+  // service is just a constructor function
+  // that will be called with 'new'
+
+  this.sayHello = function(name) {
+     return "Hi " + name + "!";
+  };
+});
+---------------------------------------------------------------------
+
+[source, javascript]
+---------------------------------------------------------------------
+app.controller('AppController', function (myService) {
+  myService.sayHello(); // logs 'hello'
+});
+---------------------------------------------------------------------
+
+===== Factory
+
+
+Ci-dessous, comment Angular crée une factory :
+[source, javascript]
+---------------------------------------------------------------------
+function factory(name, factoryFn) {
+    return provider(name, { $get: factoryFn });
+}
+---------------------------------------------------------------------
+
+
+
+[source, javascript]
+---------------------------------------------------------------------
+app.factory('myFactory', function() {
+
+  // factory returns an object
+  // you can run some code before
+
+  return {
+    sayHello : function(name) {
+      return "Hi " + name + "!";
+    }
+  }
+});
+---------------------------------------------------------------------
+
+
+[source, javascript]
+---------------------------------------------------------------------
+app.controller('AppController', function (myFactory) {
+  myFactory.sayHello(); // logs 'hello'
+});
+---------------------------------------------------------------------
+
+===== Value
+
+TODO
+
+==== When use ?
+
+TODO
+
+== Testing
+
+==== How To test a controller
+
+* The controller
+
+[source, javascript]
+---------------------------------------------------------------------
+/*foo.controller.js*/
+(function() {
+  'use strict';
+
+  angular
+    .module('my.awesome.module')
+    .controller('fooController', fooController);
+
+  function fooController(awesomeService) {
+    var vm = this;
+    activate();
+
+    function activate() {      
+      vm.barfunc = barfunc;
+    }
+
+    function barfunc(){
+      /*A fabulous function doing fabulous things*/
+      var bar = awesomeService.readBar();
+    }
+
+  }
+})();
+---------------------------------------------------------------------
+
+* The test
+
+[source, javascript]
+------------------------------------------------------------
+/*foo.controller.spec.js*/
+describe('Controller: foo', function(){
+
+  //Load dependencies
+  beforeEach(module('an.awesome.external.dependency'));
+  beforeEach(module('my.awesome.module'));
+
+  //The rootScope
+  var $rootScope;
+  //Method returning the controller to test
+  var createController;
+
+  var awesomeService;
+
+  beforeEach(inject(function ($injector) {
+    $rootScope = $injector.get('$rootScope');
+
+    awesomeService = $injector.get('awesomeService');
+
+    //Getting Angular $controller service
+    var $controller = $injector.get('$controller');
+
+    //The method that will instantiate a new controller
+    createController = function () {
+      return $controller('fooController', {
+        awesomeService: awesomeService
+      });
+    };
+
+  }));
+
+  it('Should test something', function(){
+    //Create the controller
+    var fooController = createController();
+    //Execute LifeCycle
+    $rootScope.$apply();
+
+    //Add a spy
+    spyOn(awesomeService, 'readBar');
+
+    //Execute controller function
+    fooController.barfunc();
+
+    //Expect test
+    expect(awesomeService.readBar).toHaveBeenCalled();
+
+  });
+------------------------------------------------------------
+
+==== How To test a service
+
+* The service
+
+[source, javascript]
+------------------------------------------------------------
+/*foo.service.js*/
+(function() {
+  'use strict';
+
+  angular.module('my.awesome.module')
+    .factory('fooService', fooService);
+
+  function fooService($log, barService) {
+    var service = {
+      fooFunc: fooFunc,
+      barFunc: barFunc,
+    };
+
+    return service;
+
+    function fooFunc(myParam){
+      return barService.get(myParam);
+    }
+
+    function barFunc(){
+      
+    }
+
+  }
+})();
+------------------------------------------------------------
+
+* The test
+
+[source, javascript]
+------------------------------------------------------------
+/*foo.service.spec.js*/
+describe('service: fooService', function () {
+
+  //Load dependencies
+  beforeEach(module('an.awesome.external.dependency'));
+  beforeEach(module('my.awesome.module'));
+
+  var fooService;
+  var barService;
+
+  beforeEach(inject(function (_fooService_, _barService_) {
+    fooService = _fooService_;
+    barService = _barService_;
+  }));
+
+  it('It should post log with debug level on sync exception', function () {
+    var myParam = {message: 'awesome message', name: 'awesome name', stack: 'awesome stack'};
+
+    spyOn(barService, 'get');
+
+    fooService.fooFunc(myParam);
+
+    expect(barService.get).toHaveBeenCalledWith(myParam);
+  });
+  
+});
+------------------------------------------------------------
