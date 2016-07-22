@@ -1,0 +1,51 @@
+==== Développeur JEE chez Decathlon
+****
+icon:calendar[] _Septembre 2011 à Septembre 2013_
+
+icon:users[] http://corporate.decathlon.com[Decathlon]
+
+Développement d’application Web d’aide à la planification en *méthode agile (SCRUM)*
+
+* Projets *Opteam* -- Outils de planification des ressources humaines en magasin
+
+** Projet *Mytime-Annual* -- Outil d’aide à la planification hebdomadaire sur une année sociale.
+Gestion des congés, des jours de repos et des absences.
+** Projet *Mytime-Weekly* -- Outil d’aide à la planification horaire sur une semaine.
+Gestion par type d’activités, de congés et d’absences.
+
+** Développement des interfaces web avec le framework *GWT*
+** Développement de la partie contrôleur avec Spring MVC
+** Développement de la partie métier avec Hibernate
+** Tests unitaires, recette, mise en production, suivi de production
+** Développement de différentes évolutions
+** Développement d’un module de synchronisation avec *Google Calendar* via l'Api Google
+** Génération automatique de Pdfs via IText
+
+icon:gears[] Environnement Technique
+
+** Langages
+
+*** JavaEE 6
+
+** Frameworks -- Librairies
+
+*** Gwt, Spring Mvc, Hibernate, OC4J
+
+** Outils
+
+*** Svn, Maven, Continuum
+
+** Environnement de développement
+
+*** Eclipse, Windows
+
+** Base de données
+
+*** Oracle
+
+** Serveurs
+
+*** Tomcat, Weblogic
+
+_Mots Clés_ : Scrum, Gwt, Google Calendar
+****

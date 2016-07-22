@@ -1,0 +1,46 @@
+==== Développeur JEE chez Cofisun International
+****
+icon:calendar[] _Novembre 2009 à Septembre 2011_
+
+icon:users[] Cofisun
+
+Développement sur l'application Web Cofiweb
+
+* Projet CofiWeb -- Application destinée à l'ouverture de crédit prospects et partenaires à destination de l'Europe Centrale (Hongrie, République Tchèque)
+** Etude technique (recherche de solutions et outils techniques en fonction des besoins)
+** Développement des interfaces web
+** Développement de la partie métier
+** Mise en place du modèle de données
+** Rédaction de manuels utilisateurs
+** Rédaction des documentations techniques
+** Tests unitaires, recette, mise en production, suivi de production
+
+icon:gears[] Environnement Technique
+
+** Langages
+
+*** Java 4
+
+** Frameworks -- Librairies
+
+*** Struts 1, Spring IOC, Hibernate, Axis, Ajax,
+
+** Outils
+
+*** Maven, svn, cvs
+
+** Environnement de développement
+
+*** Eclipse, Windows
+
+** Base de données
+
+*** Oracle
+
+** Serveurs
+
+*** Tomcat, Weblogic
+
+_Mots Clés_ : Struts
+
+****

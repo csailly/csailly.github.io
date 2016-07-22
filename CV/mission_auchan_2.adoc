@@ -1,0 +1,61 @@
+==== Développeur Web chez Auchan -- DSI France
+****
+icon:calendar[] _Depuis Avril 2015_
+
+icon:users[] Auchan
+
+Au sein du département Business Intelligence, développement en *méthode agile (SCRUM)* d'applications Web d'assistance au pilotage et de ciblage clients pour les magasins.
+
+* Projet Pilot'Auchan -- Outil d'aide au pilotage des stocks et des ventes
+
+** Développement sur la partie Front en *AngularJS*
+
+** Développement sur la partie BackOffice d'*Api Rest* en Java
+
+* Projet Datastore -- Outil marketing de ciblage des clients
+
+** Développement sur la partie Front en *AngularJS*. Intégration d'un module cartographique au moyen des outils *MapBox / Leaflet*
+
+** Développement sur la partie BackOffice d'*Api Rest* en Java
+
+** Recueil des besoins fonctionnels auprès des équipes métiers
+
+** Elaboration du Product Backlog
+
+** Planification des Sprints (2 semaines)
+
+** Animation des démos
+
+icon:gears[] Environnement Technique
+
+** Langages
+
+*** Java EE 8, Html5, Less, Javascript, Shell Script
+
+** Frameworks -- Librairies
+
+*** AngularJS, Leaflet, MapBox, Spring Boot, Spring MVC, Zuul, Eureka, Hazelcast
+
+** Outils
+
+*** Maven, Jenkins, Git, GitLab, Jolokia, Logstash, Kibana, Gulp, Webpack, Bower, Npm, Asciidoctor
+
+** Environnement de développement
+
+*** IntelliJ, Linux
+
+** Base de données
+
+*** Teradata, ElasticSearch
+
+** Serveurs
+
+*** Apache, Spring Boot
+
+** Architecture
+
+*** Micro Services, Api Rest
+
+_Mots Clés_ : Scrum, Api Rest, Micro Services, AngularJS, Cartographie
+
+****

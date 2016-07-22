@@ -1,0 +1,41 @@
+==== Développeur JEE chez Auchan -- DSI Pays de l'Est
+****
+icon:calendar[] _Novembre 2014 à  Mars 2015_
+
+icon:users[] Auchan
+
+Dans le cadre de la refonte de l'outil de gestion des négociations, contrats & facturation de ressources, développement et maintenance sur les parties Front et Back en *méthode agile (SCRUM)*
+
+* Projet ANEE -- Achats et Négocations pour l'Europe de l'essentiellement
+
+** Accompagnement à la mise en place de la méthode scrum (création des Users Story, création des sprints, outils de suivis, dashboard)
+
+** Evolutions et corrections sur le lot 1 – Gestion des fournisseurs
+
+** Développement des fonctionnalités du lot 3 – Gestion des objectifs
+
+icon:gears[] Environnement Technique
+
+** Langages
+
+*** Java EE 6
+
+** Frameworks -- Librairies
+
+*** Struts 1, Spring IOC, Hibernate
+
+** Outils
+
+*** Maven, Svn
+
+** Environnement de développement
+
+*** Eclipse, Windows, Tomcat
+
+** Base de données
+
+*** Oracle
+
+_Mots Clés_ :  Scrum, Struts
+
+****
