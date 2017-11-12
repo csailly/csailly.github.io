@@ -4,9 +4,35 @@ icon:calendar[] _Depuis Avril 2015_
 
 icon:users[] Auchan
 
-Au sein du département Business Intelligence, développement en *méthode agile (SCRUM)* d'applications Web d'assistance au pilotage et de ciblage clients pour les magasins.
+Au sein du département Business Intelligence, développement en *méthode agile (SCRUM)* de diverses applications de restitution et de pilotage des indicateurs de ventes et de stock. +
+Je participe au développement, à la mise en production, aux évolutions et à la maintenance des applications dans une architecture micro services. +
+J'interviens à la fois sur les applications frontend et sur les applications backend. +
+De part mon intêret pour les nouvelles technologies, je réalise différents POC afin de mettre en place les nouveaux frameworks (Ex. VueJS, NodeJS). +
+J'ai participé au développement d'un outil cartographique de restitution des indicateurs de consommation des clients en fonction de leurs comportements d'achat et de leurs situations géographques
+ afin de mieux cibler les campagnes de marketting. +
+J'accompagne et assiste les développeurs ayant un profil débutant ou en formation.
+
+* Projet Optigamme -- Outil de consitution de la gamme des produits magasin
+
+** Développement sur la partie Front en *VueJS*
+
+** Développement sur la partie BackOffice d'*Api Rest* en Java
+
+* Projet Opticam -- Outil de plannification d'approvisionnement des stocks.
+
+** Développement sur la partie Front en *Angular 2*
+
+** Développement sur la partie BackOffice d'*Api Rest* en Java
+
+* Projet Synapse -- Outil d'analyse des flux
+
+** Développement sur la partie Front en *VueJS*
+
+** Développement sur la partie BackOffice d'*Api Rest* en Node Js
 
 * Projet Pilot'Auchan -- Outil d'aide au pilotage des stocks et des ventes
+
+** Migration d'une architecture monolithique en architecture micro services
 
 ** Développement sur la partie Front en *AngularJS*
 
