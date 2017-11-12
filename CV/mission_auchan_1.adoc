@@ -1,4 +1,4 @@
-==== Développeur JEE chez Auchan -- DSI Pays de l'Est
+=== Développeur JEE chez Auchan -- DSI Pays de l'Est
 ****
 icon:calendar[] _Novembre 2014 à  Mars 2015_
 

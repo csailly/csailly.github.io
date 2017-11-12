@@ -1,4 +1,4 @@
-==== Développeur Java chez IT-CE
+=== Développeur Java chez IT-CE
 ****
 icon:calendar[] _Septembre 2013 à Octobre 2014_
 

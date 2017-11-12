@@ -1,4 +1,4 @@
-==== Développeur JEE au forfait pour Cofidis
+=== Développeur JEE au forfait pour Cofidis
 ****
 icon:calendar[] _Septembre 2007 à Octobre 2008_
 

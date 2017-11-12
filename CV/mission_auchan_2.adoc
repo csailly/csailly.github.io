@@ -1,16 +1,16 @@
-==== Développeur Web chez Auchan -- DSI France
+=== Développeur Web chez Auchan -- DSI France
 ****
 icon:calendar[] _Depuis Avril 2015_
 
 icon:users[] Auchan
 
-Au sein du département Business Intelligence, développement en *méthode agile (SCRUM)* de diverses applications de restitution et de pilotage des indicateurs de ventes et de stock. +
+Au sein du département Business Intelligence, développement en *méthode agile (SCRUM)* d'applications de restitution et de pilotage des indicateurs de ventes et de stock. +
 Je participe au développement, à la mise en production, aux évolutions et à la maintenance des applications dans une architecture micro services. +
-J'interviens à la fois sur les applications frontend et sur les applications backend. +
-De part mon intêret pour les nouvelles technologies, je réalise différents POC afin de mettre en place les nouveaux frameworks (Ex. VueJS, NodeJS). +
-J'ai participé au développement d'un outil cartographique de restitution des indicateurs de consommation des clients en fonction de leurs comportements d'achat et de leurs situations géographques
+J'interviens à la fois sur les applications Frontend et sur les applications Backend. +
+De part mon intêret pour les nouvelles technologies, je réalise différents POC afin de mettre en place les nouvelles solutions (Ex. VueJS, NodeJS). +
+J'ai réalisé un outil cartographique de restitution des indicateurs de consommation des clients en fonction de leurs comportements d'achat et de leurs situations géographiques
  afin de mieux cibler les campagnes de marketting. +
-J'accompagne et assiste les développeurs ayant un profil débutant ou en formation.
+J'accompagne et assiste les développeurs débutants et/ou en formation.
 
 * Projet Optigamme -- Outil de consitution de la gamme des produits magasin
 
@@ -56,32 +56,32 @@ icon:gears[] Environnement Technique
 
 ** Langages
 
-*** Java EE 8, Html5, Less, Javascript, Shell Script
+*** Java EE 8, Html5, Css 3, Less, Sass, Javascript, TypeScript, Shell Script
 
 ** Frameworks -- Librairies
 
-*** AngularJS, Leaflet, MapBox, Spring Boot, Spring MVC, Zuul, Eureka, Hazelcast
+*** AngularJS, Angular 2, Vue Js, Node Js, Leaflet, MapBox, Spring Boot, Spring MVC, Spring Cloud (Zuul, Eureka), Hazelcast, ElasticSearch
 
 ** Outils
 
-*** Maven, Jenkins, Git, GitLab, Jolokia, Logstash, Kibana, Gulp, Webpack, Bower, Npm, Asciidoctor
+*** Maven, Jenkins, Git, Gitflow, GitLab, Jolokia, Logstash, Kibana, Gulp, Webpack, Bower, Npm, Yarn
 
 ** Environnement de développement
 
-*** IntelliJ, Linux
+*** IntelliJ, Visual Studio Code, Linux
 
 ** Base de données
 
-*** Teradata, ElasticSearch
+*** Teradata, PostgreSql, ElasticSearch
 
 ** Serveurs
 
-*** Apache, Spring Boot
+*** Apache, Spring Boot, Docker, Rancher
 
 ** Architecture
 
 *** Micro Services, Api Rest
 
-_Mots Clés_ : Scrum, Api Rest, Micro Services, AngularJS, Cartographie
+_Mots Clés_ : Scrum, Api Rest, Micro Services, Javascript, Cartographie
 
 ****

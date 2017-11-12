@@ -1,4 +1,4 @@
-==== Développeur Web chez XXX
+=== Développeur Web chez XXX
 ****
 icon:calendar[] _Depuis Avril 2015_
 

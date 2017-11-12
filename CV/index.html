@@ -1,10 +1,14 @@
-  <html>
-    <head>
-      <meta charset="utf-8">
-      <title>CV</title>
-      <style>
-        #wrapper {width: 960px; margin: 0 auto;}
-        /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.5">
+<title>Christophe SAILLY</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
+/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
 /* Remove comment around @import statement below when using as a custom stylesheet */
 /*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
@@ -13,7 +17,6 @@ audio:not([controls]){display:none;height:0}
 [hidden],template{display:none}
 script{display:none!important}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
-body{margin:0}
 a{background:transparent}
 a:focus{outline:thin dotted}
 a:active,a:hover{outline:0}
@@ -48,7 +51,7 @@ textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
 *,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
 html,body{font-size:100%}
-body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto;tab-size:4;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
 a:hover{cursor:pointer}
 img,object,embed{max-width:100%;height:auto}
 object,embed{height:100%}
@@ -60,7 +63,6 @@ img{-ms-interpolation-mode:bicubic}
 .text-center{text-align:center!important}
 .text-justify{text-align:justify!important}
 .hide{display:none}
-body{-webkit-font-smoothing:antialiased}
 img,object,svg{display:inline-block;vertical-align:middle}
 textarea{height:auto;min-height:50px}
 select{width:100%}
@@ -115,13 +117,16 @@ table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:
 table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
 table tr.even,table tr.alt,table tr:nth-of-type(even){background:#f8f8f7}
 table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
-body{tab-size:4}
 h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
 h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
 .clearfix:before,.clearfix:after,.float-group:before,.float-group:after{content:" ";display:table}
 .clearfix:after,.float-group:after{clear:both}
-*:not(pre)>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background-color:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+*:not(pre)>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background-color:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed;word-wrap:break-word}
+*:not(pre)>code.nobreak{word-wrap:normal}
+*:not(pre)>code.nowrap{white-space:nowrap}
 pre,pre>code{line-height:1.45;color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;text-rendering:optimizeSpeed}
+em em{font-style:normal}
+strong strong{font-weight:400}
 .keyseq{color:rgba(51,51,51,.8)}
 kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background-color:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
 .keyseq kbd:first-child{margin-left:0}
@@ -411,34 +416,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .print-only{display:block!important}
 .hide-for-print{display:none!important}
 .show-for-print{display:inherit!important}}
-
-      </style>
-      <link href='https://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>
-      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/default.min.css">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/asciidoc.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/yaml.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/dockerfile.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/makefile.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/go.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/rust.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/haskell.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/typescript.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/scss.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/less.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/handlebars.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/groovy.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/scala.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/bash.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/ini.min.js"></script>
-      <script>hljs.initHighlightingOnLoad();</script>
-    </head>
-    <body>
-      <div id="wrapper">
-        <div class="article">
-          <h1><span class="image"><img src="face.png" alt="MyFace" width="128"></span> Christophe SAILLY</h1>
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body class="article">
+<div id="header">
+<h1><span class="image"><img src="face.png" alt="MyFace" width="128"></span> Christophe SAILLY</h1>
+</div>
+<div id="content">
 <div id="preamble">
 <div class="sectionbody">
 <div class="sidebarblock">
@@ -449,21 +434,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 </div>
-<div id="toc" class="toc">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel2">
-<li><a href="#__span_class_icon_i_class_fa_fa_commenting_i_span_contact"><span class="icon"><i class="fa fa-commenting"></i></span> CONTACT</a></li>
-<li><a href="#__span_class_icon_i_class_fa_fa_user_i_span_presentation"><span class="icon"><i class="fa fa-user"></i></span> PRESENTATION</a></li>
-<li><a href="#__span_class_icon_i_class_fa_fa_graduation_cap_i_span_formations"><span class="icon"><i class="fa fa-graduation-cap"></i></span> FORMATIONS</a></li>
-<li><a href="#__span_class_icon_i_class_fa_fa_cogs_i_span_competences"><span class="icon"><i class="fa fa-cogs"></i></span> COMPETENCES</a></li>
-<li><a href="#__span_class_icon_i_class_fa_fa_industry_i_span_experience_professionnelle"><span class="icon"><i class="fa fa-industry"></i></span> EXPERIENCE PROFESSIONNELLE</a></li>
-<li><a href="#__span_class_icon_i_class_fa_fa_language_i_span_langues"><span class="icon"><i class="fa fa-language"></i></span> LANGUES</a></li>
-<li><a href="#__span_class_icon_i_class_fa_fa_tree_i_span_loisirs"><span class="icon"><i class="fa fa-tree"></i></span> LOISIRS</a></li>
-</ul>
 </div>
-</div>
-<div class="sect2">
-<h3 id="__span_class_icon_i_class_fa_fa_commenting_i_span_contact"><span class="icon"><i class="fa fa-commenting"></i></span> CONTACT</h3>
+<div class="sect1">
+<h2 id="__span_class_icon_i_class_fa_fa_commenting_i_span_contact"><span class="icon"><i class="fa fa-commenting"></i></span> CONTACT</h2>
+<div class="sectionbody">
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -480,25 +454,27 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 </div>
-<div class="sect2">
-<h3 id="__span_class_icon_i_class_fa_fa_user_i_span_presentation"><span class="icon"><i class="fa fa-user"></i></span> PRESENTATION</h3>
+</div>
+<div class="sect1">
+<h2 id="__span_class_icon_i_class_fa_fa_user_i_span_presentation"><span class="icon"><i class="fa fa-user"></i></span> PRESENTATION</h2>
+<div class="sectionbody">
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Développeur depuis 2007, passionné par les Logiciels Libres, l&#8217;Open Source et les nouvelles technologies Web en général,
-je travaille essentiellement sur les écosystèmes Java et JavaScript.<br>
-De nature curieuse, j&#8217;apprécie découvrir les dernières technologies et les mettre en pratique
+<p>Développeur depuis 2007, passionné par les Logiciels Libres, l&#8217;Open Source et le Web en général,
+j&#8217;évolue essentiellement dans les écosystèmes Java et JavaScript.<br>
+Curieux, j&#8217;aime apprendre de nouveaux langages, technos et méthodes de travail et les mettre en pratique
 au travers des missions dans lesquelles j&#8217;interviens.<br>
 De part la diversité des différents projets sur lesquels j&#8217;ai été amené à travailler,
-j&#8217;ai acquis une certaine polyvalence et une bonne autonomie ainsi qu&#8217;une facilité d&#8217;adaptation.<br>
-Adepte de l&#8217;Open Source je fais en sorte que mon code soit propre et compréhensible
-afin d'être réutilisable ou tout simplement maintenable.</p>
+j&#8217;ai acquis une certaine polyvalence et une bonne autonomie ainsi qu&#8217;une facilité d&#8217;adaptation.<br></p>
 </div>
 </div>
 </div>
 </div>
-<div class="sect2">
-<h3 id="__span_class_icon_i_class_fa_fa_graduation_cap_i_span_formations"><span class="icon"><i class="fa fa-graduation-cap"></i></span> FORMATIONS</h3>
+</div>
+<div class="sect1">
+<h2 id="__span_class_icon_i_class_fa_fa_graduation_cap_i_span_formations"><span class="icon"><i class="fa fa-graduation-cap"></i></span> FORMATIONS</h2>
+<div class="sectionbody">
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -507,8 +483,10 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 </div>
 </div>
 </div>
-<div class="sect2">
-<h3 id="__span_class_icon_i_class_fa_fa_cogs_i_span_competences"><span class="icon"><i class="fa fa-cogs"></i></span> COMPETENCES</h3>
+</div>
+<div class="sect1">
+<h2 id="__span_class_icon_i_class_fa_fa_cogs_i_span_competences"><span class="icon"><i class="fa fa-cogs"></i></span> COMPETENCES</h2>
+<div class="sectionbody">
 <div class="sidebarblock">
 <div class="content">
 <div class="dlist">
@@ -539,14 +517,20 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">TypeScript</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">HTML</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
-</tr>
-<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Css</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
@@ -559,14 +543,14 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star-half-o fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Shell</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sass</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star-half-o fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Php</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
@@ -577,12 +561,6 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">C</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-half-o fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
 </tr>
@@ -611,12 +589,12 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Angular 2</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star-half-o fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Leaflet</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vue Js</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
@@ -624,17 +602,37 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Leaflet</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">NodeJS</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Electron</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Spring Boot</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Spring Cloud</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
+<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Spring MVC</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
@@ -643,41 +641,21 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 <span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
 <span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
 </tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Spring Cloud</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-half-o fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Hibernate</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Hazelcast</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span>
-<span class="icon"><i class="fa fa-star-o fa-color: yellow"></i></span></p></td>
-</tr>
 </tbody>
 </table>
 <div class="dlist">
 <dl>
 <dt class="hdlist1">Outils</dt>
 <dd>
-<p>Git, Svn, Maven, Jenkins, Gitlab, Nexus, Bower, Npm, Gulp, Webpack</p>
+<p>Git, Gitlab, Gitflow, Svn, Nexus, Maven, Bower, Npm, Gulp, Webpack, Jenkins, Docker, Rancher, ElasticSearch, Logstash, Kibana</p>
 </dd>
 <dt class="hdlist1">Environements</dt>
 <dd>
-<p>Linux(Debian likes), Eclipse, IntelliJ</p>
+<p>Linux(Debian likes), Eclipse, IntelliJ, Visual Studio Code</p>
 </dd>
 <dt class="hdlist1">Bases de données</dt>
 <dd>
-<p>Oracle, Teradata, SQlite</p>
+<p>Oracle, PostgreSQL, Teradata</p>
 </dd>
 <dt class="hdlist1">Méthodes</dt>
 <dd>
@@ -688,10 +666,12 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 </div>
 </div>
 </div>
+</div>
+<div class="sect1">
+<h2 id="__span_class_icon_i_class_fa_fa_industry_i_span_experience_professionnelle"><span class="icon"><i class="fa fa-industry"></i></span> EXPERIENCE PROFESSIONNELLE</h2>
+<div class="sectionbody">
 <div class="sect2">
-<h3 id="__span_class_icon_i_class_fa_fa_industry_i_span_experience_professionnelle"><span class="icon"><i class="fa fa-industry"></i></span> EXPERIENCE PROFESSIONNELLE</h3>
-<div class="sect3">
-<h4 id="_d_veloppeur_web_chez_auchan_dsi_france">Développeur Web chez Auchan&#8201;&#8212;&#8201;DSI France</h4>
+<h3 id="_développeur_web_chez_auchan_dsi_france">Développeur Web chez Auchan&#8201;&#8212;&#8201;DSI France</h3>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -701,14 +681,62 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 <p><span class="icon"><i class="fa fa-users"></i></span> Auchan</p>
 </div>
 <div class="paragraph">
-<p>Au sein du département Business Intelligence, développement en <strong>méthode agile (SCRUM)</strong> d&#8217;applications Web d&#8217;assistance au pilotage et de ciblage clients pour les magasins.</p>
+<p>Au sein du département Business Intelligence, développement en <strong>méthode agile (SCRUM)</strong> d&#8217;applications de restitution et de pilotage des indicateurs de ventes et de stock.<br>
+Je participe au développement, à la mise en production, aux évolutions et à la maintenance des applications dans une architecture micro services.<br>
+J&#8217;interviens à la fois sur les applications Frontend et sur les applications Backend.<br>
+De part mon intêret pour les nouvelles technologies, je réalise différents POC afin de mettre en place les nouvelles solutions (Ex. VueJS, NodeJS).<br>
+J&#8217;ai réalisé un outil cartographique de restitution des indicateurs de consommation des clients en fonction de leurs comportements d&#8217;achat et de leurs situations géographiques
+ afin de mieux cibler les campagnes de marketting.<br>
+J&#8217;accompagne et assiste les développeurs débutants et/ou en formation.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
+<p>Projet Optigamme&#8201;&#8212;&#8201;Outil de consitution de la gamme des produits magasin</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Développement sur la partie Front en <strong>VueJS</strong></p>
+</li>
+<li>
+<p>Développement sur la partie BackOffice d'<strong>Api Rest</strong> en Java</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Projet Opticam&#8201;&#8212;&#8201;Outil de plannification d&#8217;approvisionnement des stocks.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Développement sur la partie Front en <strong>Angular 2</strong></p>
+</li>
+<li>
+<p>Développement sur la partie BackOffice d'<strong>Api Rest</strong> en Java</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Projet Synapse&#8201;&#8212;&#8201;Outil d&#8217;analyse des flux</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Développement sur la partie Front en <strong>VueJS</strong></p>
+</li>
+<li>
+<p>Développement sur la partie BackOffice d'<strong>Api Rest</strong> en Node Js</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
 <p>Projet Pilot&#8217;Auchan&#8201;&#8212;&#8201;Outil d&#8217;aide au pilotage des stocks et des ventes</p>
 <div class="ulist">
 <ul>
+<li>
+<p>Migration d&#8217;une architecture monolithique en architecture micro services</p>
+</li>
 <li>
 <p>Développement sur la partie Front en <strong>AngularJS</strong></p>
 </li>
@@ -755,7 +783,7 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Java EE 8, Html5, Less, Javascript, Shell Script</p>
+<p>Java EE 8, Html5, Css 3, Less, Sass, Javascript, TypeScript, Shell Script</p>
 </li>
 </ul>
 </div>
@@ -765,7 +793,7 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>AngularJS, Leaflet, MapBox, Spring Boot, Spring MVC, Zuul, Eureka, Hazelcast</p>
+<p>AngularJS, Angular 2, Vue Js, Node Js, Leaflet, MapBox, Spring Boot, Spring MVC, Spring Cloud (Zuul, Eureka), Hazelcast, ElasticSearch</p>
 </li>
 </ul>
 </div>
@@ -775,7 +803,7 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Maven, Jenkins, Git, GitLab, Jolokia, Logstash, Kibana, Gulp, Webpack, Bower, Npm, Asciidoctor</p>
+<p>Maven, Jenkins, Git, Gitflow, GitLab, Jolokia, Logstash, Kibana, Gulp, Webpack, Bower, Npm, Yarn</p>
 </li>
 </ul>
 </div>
@@ -785,7 +813,7 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>IntelliJ, Linux</p>
+<p>IntelliJ, Visual Studio Code, Linux</p>
 </li>
 </ul>
 </div>
@@ -795,7 +823,7 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Teradata, ElasticSearch</p>
+<p>Teradata, PostgreSql, ElasticSearch</p>
 </li>
 </ul>
 </div>
@@ -805,7 +833,7 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Apache, Spring Boot</p>
+<p>Apache, Spring Boot, Docker, Rancher</p>
 </li>
 </ul>
 </div>
@@ -823,13 +851,13 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 </ul>
 </div>
 <div class="paragraph">
-<p><em>Mots Clés</em> : Scrum, Api Rest, Micro Services, AngularJS, Cartographie</p>
+<p><em>Mots Clés</em> : Scrum, Api Rest, Micro Services, Javascript, Cartographie</p>
 </div>
 </div>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_d_veloppeur_jee_chez_auchan_dsi_pays_de_l_est">Développeur JEE chez Auchan&#8201;&#8212;&#8201;DSI Pays de l&#8217;Est</h4>
+<div class="sect2">
+<h3 id="_développeur_jee_chez_auchan_dsi_pays_de_l_est">Développeur JEE chez Auchan&#8201;&#8212;&#8201;DSI Pays de l&#8217;Est</h3>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -924,8 +952,8 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 </div>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_d_veloppeur_java_chez_it_ce">Développeur Java chez IT-CE</h4>
+<div class="sect2">
+<h3 id="_développeur_java_chez_it_ce">Développeur Java chez IT-CE</h3>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -1045,8 +1073,8 @@ afin d'être réutilisable ou tout simplement maintenable.</p>
 </div>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_d_veloppeur_jee_chez_decathlon">Développeur JEE chez Decathlon</h4>
+<div class="sect2">
+<h3 id="_développeur_jee_chez_decathlon">Développeur JEE chez Decathlon</h3>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -1171,8 +1199,8 @@ Gestion par type d’activités, de congés et d’absences.</p>
 </div>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_d_veloppeur_jee_chez_cofisun_international">Développeur JEE chez Cofisun International</h4>
+<div class="sect2">
+<h3 id="_développeur_jee_chez_cofisun_international">Développeur JEE chez Cofisun International</h3>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -1289,8 +1317,8 @@ Gestion par type d’activités, de congés et d’absences.</p>
 </div>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_d_veloppeur_jee_au_forfait_pour_crefidis">Développeur JEE au forfait pour Crefidis</h4>
+<div class="sect2">
+<h3 id="_développeur_jee_au_forfait_pour_crefidis">Développeur JEE au forfait pour Crefidis</h3>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -1404,8 +1432,8 @@ Gestion par type d’activités, de congés et d’absences.</p>
 </div>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_d_veloppeur_jee_au_forfait_pour_cofidis">Développeur JEE au forfait pour Cofidis</h4>
+<div class="sect2">
+<h3 id="_développeur_jee_au_forfait_pour_cofidis">Développeur JEE au forfait pour Cofidis</h3>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -1513,8 +1541,8 @@ Gestion par type d’activités, de congés et d’absences.</p>
 </div>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_d_veloppeur_jee_au_forfait_pour_keyneosoft">Développeur JEE au forfait pour Keyneosoft</h4>
+<div class="sect2">
+<h3 id="_développeur_jee_au_forfait_pour_keyneosoft">Développeur JEE au forfait pour Keyneosoft</h3>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -1629,8 +1657,10 @@ Gestion par type d’activités, de congés et d’absences.</p>
 </div>
 </div>
 </div>
-<div class="sect2">
-<h3 id="__span_class_icon_i_class_fa_fa_language_i_span_langues"><span class="icon"><i class="fa fa-language"></i></span> LANGUES</h3>
+</div>
+<div class="sect1">
+<h2 id="__span_class_icon_i_class_fa_fa_language_i_span_langues"><span class="icon"><i class="fa fa-language"></i></span> LANGUES</h2>
+<div class="sectionbody">
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -1642,23 +1672,33 @@ Gestion par type d’activités, de congés et d’absences.</p>
 </div>
 </div>
 </div>
-<div class="sect2">
-<h3 id="__span_class_icon_i_class_fa_fa_tree_i_span_loisirs"><span class="icon"><i class="fa fa-tree"></i></span> LOISIRS</h3>
+</div>
+<div class="sect1">
+<h2 id="__span_class_icon_i_class_fa_fa_tree_i_span_loisirs"><span class="icon"><i class="fa fa-tree"></i></span> LOISIRS</h2>
+<div class="sectionbody">
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Pratique de la course à pied</p>
+<p>Trail et course à pied</p>
 </div>
 <div class="paragraph">
-<p>Pratique du parapente&#8201;&#8212;&#8201;Brevet de pilote</p>
+<p>Parapente&#8201;&#8212;&#8201;Brevet de pilote</p>
 </div>
 <div class="paragraph">
-<p>Membre d&#8217;une association organisant des événements au niveau local</p>
+<p>Domotique / Electronique</p>
+</div>
+<div class="paragraph">
+<p>Bénévole dans une association organisant des événements de quartier</p>
 </div>
 </div>
 </div>
 </div>
-        </div>
-      </div>
-    </body>
-  </html>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2017-11-14 08:23:39 CET
+</div>
+</div>
+</body>
+</html>

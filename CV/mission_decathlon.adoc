@@ -1,4 +1,4 @@
-==== Développeur JEE chez Decathlon
+=== Développeur JEE chez Decathlon
 ****
 icon:calendar[] _Septembre 2011 à Septembre 2013_
 

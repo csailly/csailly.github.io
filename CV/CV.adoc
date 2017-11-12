@@ -1,4 +1,6 @@
 = image:face.png["MyFace",width=128] Christophe SAILLY
+:icons: font
+
 
 :sectnums!:
 
@@ -6,7 +8,7 @@
 Développeur Web -- Java / Javascript -- Indépendant
 ****
 
-=== icon:commenting[] CONTACT
+== icon:commenting[] CONTACT
 ****
 icon:envelope-o[] christophe.sailly@gmail.com
 icon:phone[] +336 21 71 12 63
@@ -18,22 +20,22 @@ icon:viadeo[] http://www.viadeo.com/fr/profile/christophe.sailly[christophe.sail
 icon:linkedin[] https://www.linkedin.com/in/christophe-sailly-b9557574[christophe-sailly-b9557574]
 ****
 
-=== icon:user[] PRESENTATION
+== icon:user[] PRESENTATION
 ****
-Développeur depuis 2007, passionné par les Logiciels Libres, l'Open Source et les nouvelles technologies Web en général,
-je travaille essentiellement sur les écosystèmes Java et JavaScript. +
-Curieux, j'aime découvrir les dernières technologies et les mettre en pratique
+Développeur depuis 2007, passionné par les Logiciels Libres, l'Open Source et le Web en général,
+j'évolue essentiellement dans les écosystèmes Java et JavaScript. +
+Curieux, j'aime apprendre de nouveaux langages, technos et méthodes de travail et les mettre en pratique
 au travers des missions dans lesquelles j'interviens. +
 De part la diversité des différents projets sur lesquels j'ai été amené à travailler,
 j'ai acquis une certaine polyvalence et une bonne autonomie ainsi qu'une facilité d'adaptation. +
 ****
 
-=== icon:graduation-cap[] FORMATIONS
+== icon:graduation-cap[] FORMATIONS
 ****
 2007 - Master Ingénierie des Logiciels Libres – Université du Littoral Côte d'Opale
 ****
 
-=== icon:cogs[] COMPETENCES
+== icon:cogs[] COMPETENCES
 ****
 Langages::
 [cols="6*"]
@@ -89,13 +91,6 @@ icon:star-half-o[color: yellow]
 icon:star-o[color: yellow]
 icon:star-o[color: yellow]
 
-|Shell
-|icon:star[color: yellow]
-icon:star[color: yellow]
-icon:star[color: yellow]
-icon:star-o[color: yellow]
-icon:star-o[color: yellow]
-
 |Php
 |icon:star[color: yellow]
 icon:star[color: yellow]
@@ -104,6 +99,13 @@ icon:star-o[color: yellow]
 icon:star-o[color: yellow]
 
 |Python
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|Shell
 |icon:star[color: yellow]
 icon:star[color: yellow]
 icon:star[color: yellow]
@@ -174,13 +176,6 @@ icon:star[color: yellow]
 icon:star[color: yellow]
 icon:star-o[color: yellow]
 
-|Spring MVC
-|icon:star[color: yellow]
-icon:star[color: yellow]
-icon:star[color: yellow]
-icon:star[color: yellow]
-icon:star-o[color: yellow]
-
 |Spring Cloud
 |icon:star[color: yellow]
 icon:star[color: yellow]
@@ -188,11 +183,11 @@ icon:star[color: yellow]
 icon:star[color: yellow]
 icon:star-o[color: yellow]
 
-|Hibernate
+|Spring MVC
 |icon:star[color: yellow]
 icon:star[color: yellow]
 icon:star[color: yellow]
-icon:star-o[color: yellow]
+icon:star[color: yellow]
 icon:star-o[color: yellow]
 
 |Hazelcast
@@ -202,25 +197,30 @@ icon:star-o[color: yellow]
 icon:star-o[color: yellow]
 icon:star-o[color: yellow]
 
+|Hibernate
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
 |===
 
-
-
 Outils::
-Git, Svn, Maven, Jenkins, Gitlab, Nexus, Bower, Npm, Gulp, Webpack, Docker, Rancher, ElasticSearch, Kibana, Logstash
+Git, Gitlab, Gitflow, Svn, Nexus, Maven, Bower, Npm, Gulp, Webpack, Jenkins, Docker, Rancher, ElasticSearch, Logstash, Kibana
 
 Environements::
 Linux(Debian likes), Eclipse, IntelliJ, Visual Studio Code
 
 Bases de données::
-Oracle, Teradata, PostgreSQL, SQlite
+Oracle, PostgreSQL, Teradata
 
 Méthodes::
 Méthodes agiles, Scrum
 
 ****
 
-=== icon:industry[] EXPERIENCE PROFESSIONNELLE
+== icon:industry[] EXPERIENCE PROFESSIONNELLE
 
 include::mission_auchan_2.adoc[]
 
@@ -238,18 +238,20 @@ include::mission_cofidis.adoc[]
 
 include::mission_keyneosoft.adoc[]
 
-=== icon:language[] LANGUES
+== icon:language[] LANGUES
 ****
 Français: Langue maternelle
 
 Anglais: Lu et écrit
 ****
 
-=== icon:tree[] LOISIRS
+== icon:tree[] LOISIRS
 ****
-Pratique de la course à pied
+Trail et course à pied
 
-Pratique du parapente -- Brevet de pilote
+Parapente -- Brevet de pilote
 
-Membre d'une association organisant des événements au niveau local
+Domotique / Electronique
+
+Bénévole dans une association organisant des événements de quartier
 ****
