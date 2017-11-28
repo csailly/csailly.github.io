@@ -1,0 +1,257 @@
+= image:face.png["MyFace",width=128] Christophe SAILLY
+:icons: font
+
+
+:sectnums!:
+
+****
+Développeur Web -- Java / Javascript -- Indépendant
+****
+
+== icon:commenting[] CONTACT
+****
+icon:envelope-o[] christophe.sailly@gmail.com
+icon:phone[] +336 21 71 12 63
+icon:map-marker[] https://goo.gl/TZBPGO[Pérenchies]
+
+icon:github[] https://github.com/csailly[csailly]
+icon:twitter[] https://twitter.com/chsailly[@chsailly]
+icon:viadeo[] http://www.viadeo.com/fr/profile/christophe.sailly[christophe.sailly]
+icon:linkedin[] https://www.linkedin.com/in/christophe-sailly-b9557574[christophe-sailly-b9557574]
+****
+
+== icon:user[] PRESENTATION
+****
+Développeur depuis 2007, passionné par les Logiciels Libres, l'Open Source et le Web en général,
+j'évolue essentiellement dans les écosystèmes Java et JavaScript. +
+Curieux, j'aime apprendre de nouveaux langages, technos et méthodes de travail et les mettre en pratique
+au travers des missions dans lesquelles j'interviens. +
+De part la diversité des différents projets sur lesquels j'ai été amené à travailler,
+j'ai acquis une certaine polyvalence et une bonne autonomie ainsi qu'une facilité d'adaptation. +
+****
+
+== icon:graduation-cap[] FORMATIONS
+****
+2007 - Master Ingénierie des Logiciels Libres – Université du Littoral Côte d'Opale
+****
+
+== icon:cogs[] COMPETENCES
+****
+Langages::
+[cols="6*"]
+|===
+
+|Java
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+
+
+|Javascript
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+
+|TypeScript
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|HTML
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+
+|Css
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-half-o[color: yellow]
+icon:star-o[color: yellow]
+
+|Less
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-half-o[color: yellow]
+icon:star-o[color: yellow]
+
+|Sass
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-half-o[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|Php
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|Python
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|Shell
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|C
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-half-o[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|===
+
+
+Frameworks::
+
+[cols="6*"]
+|===
+
+|AngularJS
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|Angular 2
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|Vue Js
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|Leaflet
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|NodeJS
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|Electron
+|icon:star[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|Spring Boot
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+
+|Spring Cloud
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+
+|Spring MVC
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+
+|Hazelcast
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|Hibernate
+|icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star[color: yellow]
+icon:star-o[color: yellow]
+icon:star-o[color: yellow]
+
+|===
+
+Outils::
+Git, Gitlab, Gitflow, Svn, Nexus, Maven, Npm, Yarn, Bower, Gulp, Webpack, Jenkins, Docker, Rancher, ElasticSearch, Logstash, Kibana
+
+Environements::
+Linux(Debian likes), Eclipse, IntelliJ, Visual Studio Code
+
+Bases de données::
+Oracle, PostgreSQL, Teradata
+
+Méthodes::
+Méthodes agiles, Scrum
+
+****
+
+== icon:industry[] EXPERIENCE PROFESSIONNELLE
+
+include::mission_auchan_2.adoc[]
+
+include::mission_auchan_1.adoc[]
+
+include::mission_itce.adoc[]
+
+include::mission_decathlon.adoc[]
+
+include::mission_cofisun.adoc[]
+
+include::mission_crefidis.adoc[]
+
+include::mission_cofidis.adoc[]
+
+include::mission_keyneosoft.adoc[]
+
+== icon:language[] LANGUES
+****
+Français: Langue maternelle
+
+Anglais: Lu et écrit
+****
+
+== icon:tree[] LOISIRS
+****
+Trail et course à pied
+
+Parapente -- Brevet de pilote
+
+Domotique / Electronique
+
+Bénévole dans une association organisant des événements de quartier
+****

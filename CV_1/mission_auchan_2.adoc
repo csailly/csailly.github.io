@@ -1,0 +1,87 @@
+=== Développeur Web chez Auchan -- DSI France
+****
+icon:calendar[] _Depuis Avril 2015_
+
+icon:users[] Auchan
+
+Au sein du département Business Intelligence, développement en *méthode agile (SCRUM)* d'applications de restitution et de pilotage des indicateurs de ventes et de stock. +
+Je participe au développement, à la mise en production, aux évolutions et à la maintenance des applications dans une architecture micro services. +
+J'interviens à la fois sur les applications Frontend et sur les applications Backend. +
+De part mon intêret pour les nouvelles technologies, je réalise différents POC afin de mettre en place les nouvelles solutions (Ex. VueJS, NodeJS). +
+J'ai réalisé un outil cartographique de restitution des indicateurs de consommation des clients en fonction de leurs comportements d'achat et de leurs situations géographiques
+ afin de mieux cibler les campagnes de marketting. +
+J'accompagne et assiste les développeurs débutants et/ou en formation.
+
+* Projet Optigamme -- Outil de consitution de la gamme des produits magasin
+
+** Développement sur la partie Front en *VueJS*
+
+** Développement sur la partie BackOffice d'*Api Rest* en Java
+
+* Projet Opticam -- Outil de planification d'approvisionnement des stocks.
+
+** Développement sur la partie Front en *Angular 2*
+
+** Développement sur la partie BackOffice d'*Api Rest* en Java
+
+* Projet Synapse -- Outil d'analyse des flux
+
+** Développement sur la partie Front en *VueJS*
+
+** Développement sur la partie BackOffice d'*Api Rest* en Node Js
+
+* Projet Pilot'Auchan -- Outil d'aide au pilotage des stocks et des ventes
+
+** Migration d'une architecture monolithique en architecture micro services
+
+** Développement sur la partie Front en *AngularJS*
+
+** Développement sur la partie BackOffice d'*Api Rest* en Java
+
+* Projet Datastore -- Outil marketing de ciblage des clients
+
+** Développement sur la partie Front en *AngularJS*. Intégration d'un module cartographique au moyen des outils *MapBox / Leaflet*
+
+** Développement sur la partie BackOffice d'*Api Rest* en Java
+
+** Recueil des besoins fonctionnels auprès des équipes métiers
+
+** Elaboration du Product Backlog
+
+** Planification des Sprints (2 semaines)
+
+** Animation des démos
+
+icon:gears[] Environnement Technique
+
+** Langages
+
+*** Java EE 8, Html5, Css 3, Less, Sass, Javascript, TypeScript, Shell Script
+
+** Frameworks -- Librairies
+
+*** AngularJS, Angular 2, Vue Js, Node Js, Leaflet, MapBox, Spring Boot, Spring MVC, Spring Cloud (Zuul, Eureka), Hazelcast, ElasticSearch
+
+** Outils
+
+*** Maven, Docker, Rancher, Jenkins, Nexus, Git, Gitflow, GitLab, Jolokia, Logstash, Kibana, Gulp, Webpack, Bower, Npm, Yarn
+
+** Environnement de développement
+
+*** IntelliJ, Visual Studio Code, Linux
+
+** Base de données
+
+*** Teradata, PostgreSql, ElasticSearch
+
+** Serveurs
+
+*** Apache, Spring Boot, Docker, Rancher
+
+** Architecture
+
+*** Micro Services, Api Rest
+
+_Mots Clés_ : Scrum, Api Rest, Micro Services, Javascript, Cartographie
+
+****
