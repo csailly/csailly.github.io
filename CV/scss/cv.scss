@@ -37,6 +37,11 @@ a:visited {
 
 ul {
   list-style: none;
+  li {
+    .fa-circle {
+      font-size: 0.7rem;
+    }
+  }
 }
 
 p {

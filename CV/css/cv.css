@@ -29,6 +29,8 @@ a:visited {
 
 ul {
   list-style: none; }
+  ul li .fa-circle {
+    font-size: 0.7rem; }
 
 p {
   margin-bottom: 0.7rem;
