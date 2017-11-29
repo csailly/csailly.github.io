@@ -46,6 +46,14 @@ p {
 html {
   font-size: 14px; }
 
+@media print {
+  html {
+    font-size: 12px; } }
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 12px; } }
+
 body {
   background-color: rgba(36, 41, 46, 0.15);
   max-width: 900px;
@@ -76,6 +84,14 @@ header.main {
     header.main .me .quote {
       margin: auto; }
 
+@media screen and (max-width: 640px) {
+  header.main .myface {
+    display: none; }
+  header.main .me {
+    width: 100%;
+    background-color: #24292e;
+    color: #adadad; } }
+
 article {
   margin-bottom: 2rem; }
 
@@ -102,6 +118,16 @@ article > section {
     color: #24292e; }
     .content .content-right article > header {
       border-bottom: solid 1px #24292e; }
+
+@media screen and (max-width: 640px) {
+  .content {
+    flex-direction: column; }
+    .content .content-left {
+      width: 100%;
+      background-color: #adadad;
+      color: #24292e; }
+    .content .content-right {
+      width: 100%; } }
 
 section.contact_me {
   padding-left: 1rem; }
@@ -225,7 +251,7 @@ section.contact_me {
 
 .assignment .tags {
   margin-bottom: 1rem;
-  line-height: 1.5rem; }
+  line-height: 1.8rem; }
   .assignment .tags span {
     background-color: #0366d6;
     border: solid 1px;
@@ -233,10 +259,10 @@ section.contact_me {
     border-radius: 3px;
     display: inline;
     flex: 0 0 75px;
-    font-size: 10px;
+    font-size: 0.7rem;
     font-weight: 600;
-    margin-right: 8px;
-    padding: 2px 5px;
+    margin-right: 0.3rem;
+    padding: 0.2rem 0.4rem;
     text-transform: uppercase;
     text-align: center;
     white-space: nowrap; }
