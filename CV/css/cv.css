@@ -114,6 +114,14 @@ section.contact_me {
   section.contact_me .social_links .fa {
     font-size: 2rem; }
 
+.skills .skill-section {
+  margin-bottom: 0.7rem; }
+  .skills .skill-section > header {
+    font-weight: bold;
+    font-size: 1.1rem; }
+  .skills .skill-section .skill-section-label {
+    margin-bottom: 5px; }
+
 .scale {
   position: relative;
   display: flex;
@@ -187,19 +195,16 @@ section.contact_me {
   padding-left: 16px;
   position: relative;
   display: block; }
-
-.assignment > header {
-  display: flex;
-  margin-bottom: 16px;
-  align-items: center;
-  text-align: left; }
-
-.assignment > section {
-  margin-left: var(--timeline-badge-width); }
-
-.assignment > footer {
-  margin-top: 2rem;
-  margin-left: var(--timeline-badge-width); }
+  .assignment > header {
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+    text-align: left; }
+  .assignment > section {
+    margin-left: var(--timeline-badge-width); }
+  .assignment > footer {
+    margin-top: 2rem;
+    margin-left: var(--timeline-badge-width); }
 
 .assignment > header::before {
   content: "";
@@ -262,6 +267,10 @@ section.contact_me {
     font-weight: bold; }
   .assignment .projects .project .project-label .project-description-small {
     font-style: italic; }
+  .assignment .projects .project > ul {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    padding-left: 1rem; }
 
 .puce {
   background-color: #0366d6;
