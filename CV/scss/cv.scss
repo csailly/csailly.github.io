@@ -135,7 +135,7 @@ article {
 
 article > header {
   font-size: 1.5rem;
-  border-bottom: solid 1px $secondary-color;
+  border-bottom: solid 1px;
   padding-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -152,6 +152,10 @@ article > section {
     width: 25%;
     background-color: $primary-color;
     color: $secondary-color;
+
+    article > header {
+      border-color: $secondary-color;
+    }
   }
   .content-right {
     width: 75%;
@@ -159,7 +163,7 @@ article > section {
     color: $primary-color;
 
     article > header {
-      border-bottom: solid 1px $primary-color;
+      border-color: $primary-color;
     }
   }
 }
@@ -171,6 +175,9 @@ article > section {
       width: 100%;
       background-color: $secondary-color;
       color: $primary-color;
+      article > header {
+        border-color: $primary-color;
+      }
     }
     .content-right {
       width: 100%;

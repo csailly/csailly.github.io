@@ -97,7 +97,7 @@ article {
 
 article > header {
   font-size: 1.5rem;
-  border-bottom: solid 1px #adadad;
+  border-bottom: solid 1px;
   padding-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -112,12 +112,14 @@ article > section {
     width: 25%;
     background-color: #24292e;
     color: #adadad; }
+    .content .content-left article > header {
+      border-color: #adadad; }
   .content .content-right {
     width: 75%;
     background-color: #adadad;
     color: #24292e; }
     .content .content-right article > header {
-      border-bottom: solid 1px #24292e; }
+      border-color: #24292e; }
 
 @media screen and (max-width: 640px) {
   .content {
@@ -126,6 +128,8 @@ article > section {
       width: 100%;
       background-color: #adadad;
       color: #24292e; }
+      .content .content-left article > header {
+        border-color: #24292e; }
     .content .content-right {
       width: 100%; } }
 
