@@ -1,949 +1,1083 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
+  <head>
+    <title>Christophe SAILLY</title>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!--[if IE
+      ]><meta http-equiv="X-UA-Compatible" content="IE=edge"
+    /><![endif]-->
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <link href="./css/cv.css" rel="stylesheet" />
+    <link href="./css/progress.css" rel="stylesheet" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./manifest.json" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="./progress.js"></script>
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
 
-<head>
-  <title>Christophe SAILLY</title>
-  <meta charset="UTF-8">
-  <meta http-equiv="Cache-Control"
-    content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma"
-    content="no-cache">
-  <meta http-equiv="Expires"
-    content="0">
-  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-  <meta name="viewport"
-    content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto"
-    rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-    rel="stylesheet">
-  <link href="./css/cv.css"
-    rel="stylesheet">
-  <link href="./css/progress.css"
-    rel="stylesheet">
-  <link rel="apple-touch-icon"
-    sizes="57x57"
-    href="./assets/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon"
-    sizes="60x60"
-    href="./assets/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon"
-    sizes="72x72"
-    href="./assets/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon"
-    sizes="76x76"
-    href="./assets/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon"
-    sizes="114x114"
-    href="./assets/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon"
-    sizes="120x120"
-    href="./assets/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon"
-    sizes="144x144"
-    href="./assets/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon"
-    sizes="152x152"
-    href="./assets/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon"
-    sizes="180x180"
-    href="./assets/favicon/apple-icon-180x180.png">
-  <link rel="icon"
-    type="image/png"
-    sizes="192x192"
-    href="./assets/favicon/android-icon-192x192.png">
-  <link rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="./assets/favicon/favicon-32x32.png">
-  <link rel="icon"
-    type="image/png"
-    sizes="96x96"
-    href="./assets/favicon/favicon-96x96.png">
-  <link rel="icon"
-    type="image/png"
-    sizes="16x16"
-    href="./assets/favicon/favicon-16x16.png">
-  <link rel="manifest"
-    href="./manifest.json">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="./progress.js"></script>
-  <meta name="msapplication-TileColor"
-    content="#ffffff">
-  <meta name="msapplication-TileImage"
-    content="./assets/ms-icon-144x144.png">
-  <meta name="theme-color"
-    content="#ffffff">
-
-</head>
-
-<body>
-  <div class="KW_progressContainer">
-    <div class="KW_progressBar">
-
+  <body>
+    <div class="KW_progressContainer">
+      <div class="KW_progressBar"></div>
     </div>
-  </div>
 
-  <header class="main">
-    <span class="myface">
-      <img src="assets/face.png"
-        alt="MyFace"
-        width="128">
-    </span>
+    <header class="main">
+      <span class="myface">
+        <img src="assets/face.png" alt="MyFace" width="128" />
+      </span>
 
-    <div class="me">
-      <span class="identity">Christophe SAILLY</span>
-      <span class="role">Développeur Web — Java[Script] — Indépendant</span>
-    </div>
+      <div class="me">
+        <span class="identity">Christophe SAILLY</span>
+        <span class="role">Artisan développeur — JavaScript — Indépendant</span>
+      </div>
+    </header>
 
-  </header>
-
-
-  <div class="content">
-    <div class="content-left">
-      <article class="contact">
-        <header>
-          <i class="fa fa-address-card-o"></i>
-          <span>Contact</span>
-        </header>
-        <section class="contact_me">
-          <p>
+    <div class="content">
+      <div class="content-left">
+        <article class="contact">
+          <header>
+            <em class="fa fa-address-card-o"></em>
+            <span>Contact</span>
+          </header>
+          <section class="contact_me">
             <div>
               <a href="mailto:christophe@sailly.fr">
-                <i class="fa fa-envelope"></i>christophe@sailly.fr</a>
+                <em class="fa fa-envelope"></em>christophe@sailly.fr</a
+              >
             </div>
             <div>
               <a href="tel:+33621711263">
-                <i class="fa fa-phone"></i>+336 21 71 12 63</a>
+                <em class="fa fa-phone"></em>+336 21 71 12 63</a
+              >
             </div>
             <div>
               <a href="https://goo.gl/TZBPGO">
-                <i class="fa fa-map-marker"></i>Pérenchies</a>
+                <em class="fa fa-map-marker"></em>Pérenchies</a
+              >
             </div>
-          </p>
-          <div class="social_links">
-            <a href="https://github.com/csailly"
-              target="_">
-              <i class="fa fa-github"></i>
-            </a>
-            <a href="https://twitter.com/chsailly"
-              target="_">
-              <i class="fa fa-twitter"></i>
-            </a>
-            <a href="http://www.viadeo.com/fr/profile/christophe.sailly"
-              target="_">
-              <i class="fa fa-viadeo"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/christophe-sailly-b9557574"
-              target="_">
-              <i class="fa fa-linkedin"></i>
-            </a>
-          </div>
-
-        </section>
-      </article>
-      <article class="skills">
-        <header>
-          <i class="fa fa-code"></i>
-          <span>Compétences</span>
-          <div class="quote">
-            <i class="fa fa-quote-left"></i>On se lasse de tout, excepté d'apprendre.
-            <i class="fa fa-quote-right"></i>
-            <span>Virgile</span>
-          </div>
-        </header>
-        <section class="skill-section">
-          <header class="skill-section-label">Langages</header>
-          Java,
-          Javascript,
-          TypeScript,
-          HTML5,
-          CSS3,
-          Less,
-          Sass,
-          Php,
-          Python
-        </section>
-
-        <section class="skill-section">
-          <header class="skill-section-label">Frameworks</header>
-          Angular JS,
-          Angular,
-          Vue JS,
-          Electron JS,
-          Node JS,
-          Express JS,
-          Nest JS,
-          Leaflet,
-          Spring Boot,
-          Spring Cloud,
-          Spring Mvc
-        </section>
-
-        <section class="skill-section">
-          <header class="skill-section-label">Outils</header>
-          Git, Gitlab, Gitflow, Svn, Nexus, Maven, Bower, Npm, Gulp, Webpack, Jenkins, Docker, Rancher, ElasticSearch,
-          Logstash, Kibana, CircleCI, OpenShift
-        </section>
-
-        <section class="skill-section">
-          <header class="skill-section-label">Environements</header>
-          Linux(Debian likes), Eclipse, IntelliJ, Visual Studio Code
-        </section>
-
-        <section class="skill-section">
-          <header class="skill-section-label">Bases de données</header>
-          Oracle, PostgreSQL, Teradata, Couchbase, MongoDB
-        </section>
-
-        <section class="skill-section">
-          <header class="skill-section-label">Méthodes</header>
-          Méthodes agiles, Scrum, BDD, TDD
-        </section>
-
-
-      </article>
-    </div>
-    <div class="content-right">
-      <article class="about">
-        <header>
-          <i class="fa fa-user"></i>
-          <span>À propos de moi</span>
-        </header>
-        <section class="whoami">
-          <p>Développeur depuis 2007, passionné par les Logiciels Libres, l’Open Source et le Web en général, j’évolue
-            essentiellement
-            dans les écosystèmes Java et JavaScript.</p>
-          <p>Curieux, j’aime apprendre de nouveaux langages, technos et méthodes de travail et les mettre en pratique
-            au travers
-            des missions dans lesquelles j’interviens.</p>
-          <p>De part la diversité des différents projets sur lesquels j’ai été amené à travailler, j’ai acquis une
-            certaine
-            polyvalence et une bonne autonomie ainsi qu’une facilité d’adaptation.</p>
-        </section>
-      </article>
-
-      <article class="graduation">
-        <header>
-          <i class="fa fa-graduation-cap"></i>
-          <span>Formation</span>
-        </header>
-        <section class="whoami">
-          2007 - Master Ingénierie des Logiciels Libres – Université du Littoral Côte d’Opale
-        </section>
-      </article>
-
-      <article>
-        <header>
-          <i class="fa fa-industry"></i>
-          <span>Expériences</span>
-          <div class="quote">
-            <i class="fa fa-quote-left"></i>Le savoir est la connaissance acquise par l'étude et par l'expérience.
-            <i class="fa fa-quote-right"></i>
-            <span>Abbé Roubaud</span>
-          </div>
-        </header>
-
-        <section class="assignment">
+            <div class="social_links">
+              <a href="https://github.com/csailly" target="_">
+                <em class="fa fa-github"></em>
+              </a>
+              <a href="https://twitter.com/chsailly" target="_">
+                <em class="fa fa-twitter"></em>
+              </a>
+              <a
+                href="http://www.viadeo.com/fr/profile/christophe.sailly"
+                target="_"
+              >
+                <em class="fa fa-viadeo"></em>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/christophe-sailly-b9557574"
+                target="_"
+              >
+                <em class="fa fa-linkedin"></em>
+              </a>
+            </div>
+          </section>
+        </article>
+        <article class="skills">
           <header>
-            <span class="badge">Mar. 2018</span>
-            <h2 class="label">Adeo - Tech Lead</h2>
+            <em class="fa fa-code"></em>
+            <span>Compétences</span>
+            <div class="quote">
+              <em class="fa fa-quote-left"></em>On se lasse de tout, excepté
+              d'apprendre.
+              <em class="fa fa-quote-right"></em>
+              <span>Virgile</span>
+            </div>
           </header>
-          <section class="projects">
-            <ul>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">Hommy</span> —
-                  <span class="project-description-small">Carnet de santé de l'habitation</span>
-                </div>
-                <div class="tags">
-                  <span>Node JS</span>
-                  <span>Express JS</span>
-                  <span>Nest JS</span>
-                  <span>Vue JS</span>
-                  <span>MongoDB</span>
-                  <span>OpenShift</span>
-                  <span>CircleCI</span>
-		              <span>RabbitMQ</span>
-                  <span>Fastlane</span>
-		              <span>Docker</span>
-                  <span>Git</span>
-                  <span>API</span>
-                </div>
-                <ul>
-                  <li>
-                    <i class="fa fa-circle"></i> Accompagnement d'une équipe de 5 développeurs frontend / backend
-                  </li>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement sur les frontends et backends
-                  </li>
-                  <li>
-                    <i class="fa fa-circle"></i> Gestion de l'infrastructure
-                  </li>
-                  <li>
-                    <i class="fa fa-circle"></i> Gestion du CI / CD
-                  </li>
-                </ul>
-              </li>
-            </ul>
+          <section class="skill-section">
+            <header class="skill-section-label">Langages</header>
+            Java, Javascript, TypeScript, HTML5, CSS3, Less, Sass, Php, Python
           </section>
-        </section>
 
-        <section class="assignment">
+          <section class="skill-section">
+            <header class="skill-section-label">Frameworks</header>
+            Angular JS, Angular, Vue JS, Electron JS, Node JS, Express JS, Nest
+            JS, Leaflet, Spring Boot, Spring Cloud, Spring Mvc
+          </section>
+
+          <section class="skill-section">
+            <header class="skill-section-label">Outils</header>
+            Git, Gitlab, Gitflow, Svn, Nexus, Maven, Bower, Npm, Gulp, Webpack,
+            Jenkins, Docker, Rancher, ElasticSearch, Logstash, Kibana, CircleCI,
+            OpenShift
+          </section>
+
+          <section class="skill-section">
+            <header class="skill-section-label">Environements</header>
+            Linux(Debian likes), Eclipse, IntelliJ, Visual Studio Code
+          </section>
+
+          <section class="skill-section">
+            <header class="skill-section-label">Bases de données</header>
+            Oracle, PostgreSQL, Teradata, Couchbase, MongoDB
+          </section>
+
+          <section class="skill-section">
+            <header class="skill-section-label">Méthodes</header>
+            Méthodes agiles, Scrum, BDD, TDD
+          </section>
+        </article>
+      </div>
+      <div class="content-right">
+        <article class="about">
           <header>
-            <span class="badge">Sep. 2018</span>
-            <h2 class="label">Adeo - Développeur Backend</h2>
-          </header>          
-          <section class="projects">
-            <ul>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">Hommy</span> —
-                  <span class="project-description-small">Carnet de santé de l'habitation</span>
-                </div>
-                <div class="tags">
-                  <span>Node JS</span>
-                  <span>Express JS</span>
-                  <span>Nest JS</span>
-                  <span>Vue JS</span>
-                  <span>MongoDB</span>
-                  <span>OpenShift</span>
-                  <span>CircleCI</span>
-		              <span>RabbitMQ</span>
-                  <span>Fastlane</span>
-		              <span>Docker</span>
-                  <span>Git</span>
-                  <span>API</span>
-                </div>
-                <ul>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement sur le backend de l'application - Architecture microservice
-                  </li>
-                  <li>
-                    <i class="fa fa-circle"></i> Mise en place d'outils de qualité de code et d'automatisation - Prettier.io, Husky, Lerna,
-                    Lint-staged, Conventional commit
-                  </li>
-                  <li>
-                    <i class="fa fa-circle"></i > Mise en place de template de PR
-                  </li>
-		              <li>
-                    <i class="fa fa-circle"></i > Mise en place de la communication inter-microservices basée sur le messagging - RabbitMQ
-                  </li>
-		              <li>
-                    <i class="fa fa-circle"></i > Mise en place CI/CD pour les applications mobiles natives - CircleCI, Cordova, Fastlane
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </section>
-        </section>
-
-        <section class="assignment">
-          <header>
-            <span class="badge">Fev. 2018</span>
-            <h2 class="label">Adeo - Développeur Backend</h2>
+            <em class="fa fa-user"></em>
+            <span>À propos de moi</span>
           </header>
-          <section class="projects">
-            <ul>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">OPUS</span> —
-                  <span class="project-description-small">Outil de publication omnicannal</span>
-                </div>
-                <div class="tags">
-                  <span>Node JS</span>
-                  <span>Express JS</span>
-                  <span>Couchbase</span>
-                  <span>Elasticsearch</span>
-                  <span>Docker</span>
-                  <span>Rancher</span>
-                  <span>Git</span>
-                  <span>Jenkins</span>
-                  <span>Taurus</span>
-                  <span>Ansible</span>
-                  <span>Shell</span>
-                  <span>DevOps</span>
-                  <span>Api</span>
-                </div>
-                <ul>
-                  <li>
-                    <i class="fa fa-circle"></i> Maintenance et évolutions
-                  </li>
-                  <li>
-                    <i class="fa fa-circle"></i> Analyse des problématiques de performance
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </section>
-        </section>
-
-        <section class="assignment">
-          <header>
-            <span class="badge">Avr. 2015</span>
-            <h2 class="label">Auchan — DSI France</h2>
-          </header>
-          <section class="tags">
-            <span>Scrum</span>
-            <span>BDD</span>
-            <span>TDD</span>
-            <span>DevOps</span>
-            <span>Angular JS</span>
-            <span>Angular 2</span>
-            <span>Vue JS</span>
-            <span>Css 3</span>
-            <span>Sass</span>
-            <span>Less</span>
-            <span>Node JS</span>
-            <span>Spring Boot</span>
-            <span>Spring Cloud</span>
-            <span>Hazelcast</span>
-            <span>ELK</span>
-            <span>Docker</span>
-            <span>Rancher</span>
-            <span>Terradata</span>
-            <span>PostGreSQL</span>
-            <span>Git</span>
-            <span>Maven</span>
-            <span>Gulp</span>
-            <span>Webpack</span>
-            <span>Java 8</span>
-            <span>Typescript</span>
-            <span>Nexus</span>
-            <span>Leaflet</span>
-          </section>
-          <section>
-            <p>Au sein du département Business Intelligence, développement en méthode agile d'applications de
-              restitution et
-              de pilotage des indicateurs de ventes et de stock.</p>
-            <p>Je participe au développement, à la mise en production, aux évolutions et à la maintenance des
-              applications dans
-              une architecture micro services.</p>
-            <p>J'interviens à la fois sur les applications Frontend et sur les applications Backend.</p>
-            <p>De part mon intêret pour les nouvelles technologies, je réalise différents POC afin de mettre en place
-              les nouvelles
-              solutions (Ex. VueJS, NodeJS).</p>
-            <p>J'ai réalisé un outil cartographique de restitution des indicateurs de consommation des clients en
-              fonction de
-              leurs comportements d'achat et de leurs situations géographiques afin de mieux cibler les campagnes de
-              marketting.</p>
-            <p>J'accompagne et assiste les développeurs débutants et/ou en formation.</p>
-          </section>
-          <section class="projects">
-            <ul>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">OptiGamme</span> —
-                  <span class="project-description-small">Outil de consitution de la gamme des produits magasin</span>
-                </div>
-                <div class="tags">
-                  <span>Vue JS</span>
-                  <span>Spring Boot</span>
-                </div>
-                <ul>
-                  <li>
-                    <i class="fa fa-circle"></i> Mise en place d'une stratégie de qualité - BDD, TDD, Code Review</li>
-                </ul>
-              </li>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">OptiCam</span> —
-                  <span class="project-description-small">Outil de planification d'approvisionnement des stocks</span>
-                </div>
-                <div class="tags">
-                  <span>Angular 2</span>
-                  <span>Spring Boot</span>
-                </div>
-              </li>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">Synapse</span> —
-                  <span class="project-description-small">Outil d'analyse des flux de la plateforme d'échanges</span>
-                </div>
-                <div class="tags">
-                  <span>Vue JS</span>
-                  <span>Node JS</span>
-                </div>
-              </li>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">Pilot</span> —
-                  <span class="project-description-small">Outil d'aide au pilotage des stocks et des ventes</span>
-                </div>
-                <div class="tags">
-                  <span>Angular JS</span>
-                  <span>Spring Boot</span>
-                </div>
-                <ul>
-                  <li>
-                    <i class="fa fa-circle"></i> Migration d’une architecture monolithique en architecture micro
-                    services</li>
-                </ul>
-              </li>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">Datastore</span> —
-                  <span class="project-description-small">Outil geomarketing d'analyse des ventes et de ciblage des
-                    clients</span>
-                </div>
-                <div class="tags">
-                  <span>Angular JS</span>
-                  <span>Spring Boot</span>
-                  <span>Leaflet</span>
-                  <span>Mapbox</span>
-                  <span>OpenStreetMap</span>
-                </div>
-                <ul>
-                  <li>
-                    <i class="fa fa-circle"></i> Recueil des besoins fonctionnels auprès des équipes métiers</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Elaboration du Product Backlog</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Planification des Sprints (2 semaines)</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Intégration d’un module cartographique au moyen des outils MapBox /
-                    Leaflet, basé sur les Iris dans
-                    un 1er temps puis migrations vers les Carreaux</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Animation des démos</li>
-                </ul>
-              </li>
-            </ul>
-          </section>
-        </section>
-
-        <section class="assignment">
-          <header class="header">
-            <span class="badge">Nov. 2014</span>
-            <h2 class="label">Auchan — DSI Pays de l’Est</h2>
-          </header>
-          <section class="tags">
-            <span>Scrum</span>
-            <span>Struts</span>
-            <span>Spring IOC</span>
-            <span>Hibernate</span>
-            <span>Tomcat</span>
-            <span>Oracle</span>
-            <span>Maven</span>
-            <span>Svn</span>
-            <span>Java 6</span>
-          </section>
-          <section>
-            <p>Dans le cadre de la refonte de l’outil de gestion des négociations, contrats & facturation de
-              ressources, développement
-              et maintenance sur les parties Front et Back en méthode agile</p>
-          </section>
-          <section class="projects">
-            <ul>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">ANEE</span> —
-                  <span class="project-description-small">Achats et Négocations pour l’Europe de l’Est</span>
-                </div>
-                <ul>
-                  <li>
-                    <i class="fa fa-circle"></i> Accompagnement à la mise en place de la méthode scrum (création des
-                    Users Story, création des sprints,
-                    outils de suivis, dashboard)</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Evolutions et corrections sur le lot Gestion des fournisseurs</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement des fonctionnalités du lot Gestion des objectifs</li>
-                </ul>
-              </li>
-            </ul>
-          </section>
-        </section>
-
-        <section class="assignment">
-          <header class="header">
-            <span class="badge">Sep. 2013</span>
-            <h2 class="label">IT-CE</h2>
-          </header>
-          <section class="tags">
-            <span>Scrum</span>
-            <span>Spring WS</span>
-            <span>Spring IOC</span>
-            <span>Spring Data</span>
-            <span>Spring Batch</span>
-            <span>Maven</span>
-            <span>TFS</span>
-            <span>Power AMC</span>
-            <span>Oracle</span>
-            <span>Tomcat</span>
-            <span>Websphere</span>
-            <span>Java 6</span>
-          </section>
-          <section>
-            <p>Dans le cadre de la mutualisation des SI entre le Crédit Foncier et la Caisse d’Epargne, dans un
-              contexte agile
-              multi-sites, participation au portage de l’application OGREC et à son intégration dans le nouveau SI.</p>
-          </section>
-          <section class="projects">
-            <ul>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">OGREC</span> —
-                  <span class="project-description-small">Outil de Gestion de la Relation Client</span>
-                </div>
-                <ul>
-                  <li>
-                    <i class="fa fa-circle"></i> Rédaction des spécifications sur la base de l'application existante
-                    (Base de données / Moteur attribution)</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Modélisation du nouveau modèle de données</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement en Java du moteur d’attribution</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement de Webservices SOAP</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement de Batchs</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Configuration des serveurs d’applications Websphere</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Rédaction de documentations techniques en vue de l’installation des
-                    applications sur les différents
-                    environnements (Recette utilisateur, Qualification, Production)</li>
-                </ul>
-              </li>
-            </ul>
-          </section>
-        </section>
-
-        <section class="assignment">
-          <header class="header">
-            <span class="badge">Sep. 2011</span>
-            <h2 class="label">Decathlon</h2>
-          </header>
-          <section class="tags">
-            <span>Scrum</span>
-            <span>Java 6</span>
-            <span>GWT</span>
-            <span>Spring Mvc</span>
-            <span>Hibernate</span>
-            <span>OC4J</span>
-            <span>SVN</span>
-            <span>Maven</span>
-            <span>Continium</span>
-            <span>Oracle</span>
-            <span>Tomcat</span>
-            <span>Weblogic</span>
-            <span>Google API</span>
-          </section>
-          <section>
-            <p>Au sein du département RH, développement d'applications de planification des ressources humaines en
-              magasin dans
-              un contexte agile</p>
-          </section>
-          <section class="projects">
-            <ul>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">Mytime-Annual</span> —
-                  <span class="project-description-small"> Outil d’aide à la planification hebdomadaire sur une année
-                    sociale. Gestion des congés, des jours de repos
-                    et des absences.</span>
-                </div>
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">Mytime-Weekly </span> —
-                  <span class="project-description-small">Outil d’aide à la planification horaire sur une semaine.
-                    Gestion par type d’activités, de congés et d’absences.</span>
-                </div>
-                <ul>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement des interfaces web avec le framework GWT</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement de la partie contrôleur avec Spring MVC</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement de la partie données avec Hibernate</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Tests unitaires, recette, mise en production, suivi de production</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement de différentes évolutions</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement d’un module de synchronisation avec Google Calendar via
-                    l’Api Google</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Génération automatique de Pdfs via IText</li>
-                </ul>
-              </li>
-            </ul>
-          </section>
-        </section>
-
-        <section class="assignment">
-          <header class="header">
-            <span class="badge">Nov. 2009</span>
-            <h2 class="label">Cofisun</h2>
-          </header>
-          <section class="tags">
-            <span>Java 4</span>
-            <span>Struts</span>
-            <span>Spring IOC</span>
-            <span>Hibernate</span>
-            <span>Axis</span>
-            <span>Ajax</span>
-            <span>Maven</span>
-            <span>CVS</span>
-            <span>Svn</span>
-            <span>Oracle</span>
-            <span>Tomcat</span>
-            <span>Weblogic</span>
-          </section>
-          <section>
-            <p>Développement sur l’application Web Cofiweb</p>
-          </section>
-          <section class="projects">
-            <ul>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">CofiWeb</span> —
-                  <span class="project-description-small">Outil d’ouverture de crédit prospects et partenaires à
-                    destination de l’Europe Centrale (Hongrie, République
-                    Tchèque)
-                  </span>
-                </div>
-                <ul>
-                  <li>
-                    <i class="fa fa-circle"></i> Etude technique (recherche de solutions et outils techniques en
-                    fonction des besoins)</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement des interfaces web</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement de la partie métier</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Mise en place du modèle de données</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Rédaction de manuels utilisateurs</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Rédaction des documentations techniques</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Tests unitaires, recette, mise en production, suivi de production</li>
-                </ul>
-              </li>
-            </ul>
-          </section>
-        </section>
-
-        <section class="assignment">
-          <header class="header">
-            <span class="badge">Nov. 2008</span>
-            <h2 class="label">Crefidis</h2>
-          </header>
-          <section class="tags">
-            <span>Java 4</span>
-            <span>Struts</span>
-            <span>Spring IOC</span>
-            <span>Hibernate</span>
-            <span>Axis</span>
-            <span>Ajax</span>
-            <span>CVS</span>
-            <span>ANT</span>
-            <span>Oracle</span>
-            <span>Jboss AS</span>
-          </section>
-          <section>
-            <p>Dans le cadre de la refonte de l’extranet de financement partenaires, développement de l’application en
-              centre
-              de services</p>
-          </section>
-          <section class="projects">
-            <ul>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">Extranet</span> —
-                  <span class="project-description-small">Outil de demande d’ouverture de crédit pour les partenaires</span>
-                </div>
-                <ul>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement de l’interface Web</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement de Webservices</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Maintenance corrective et évolutive</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Tests unitaires</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Recette, mise en production, suivi, support utilisateur</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Assistance à la mise en production sur site</li>
-                </ul>
-              </li>
-            </ul>
-          </section>
-        </section>
-
-        <section class="assignment">
-          <header class="header">
-            <span class="badge">Sep. 2007</span>
-            <h2 class="label">Cofidis</h2>
-          </header>
-          <section class="tags">
-            <span>Java 4</span>
-            <span>Struts 1</span>
-            <span>Spring IOC</span>
-            <span>Hibernate</span>
-            <span>cvs</span>
-            <span>Oracle</span>
-            <span>Weblogic</span>
-            <span>Apache</span>
-          </section>
-          <section>
-            <p>Maintenance corrective et évolutive sur les applications 1euro.com France et République Tchèque en
-              centre de
-              services
+          <section class="whoami">
+            <p>
+              Développeur depuis 2007, passionné par les Logiciels Libres,
+              l’Open Source et le Web en général, j’évolue essentiellement dans
+              les écosystèmes JavaScript et Cloud.
+            </p>
+            <p>
+              Je suis particulièrement attaché aux bonnes pratiques de
+              développement et mets tout en oeuvre pour les partager et les
+              mettre en pratique au sein des équipes dans lesquelles je suis
+              amené à travailler.
             </p>
           </section>
-          <section class="projects">
-            <ul>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">1euro.com</span> —
-                  <span class="project-description-small">Solution de paiement en ligne via crédit révolving</span>
-                </div>
-                <ul>
-                  <li>
-                    <i class="fa fa-circle"></i> Intégration du parcours téléphone et du parcours client à
-                    l’application</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement sur l’espace client</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Tests unitaires, recette, mise en production et suivi</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Rédaction d’une documentation fonctionnelle </li>
-                </ul>
-              </li>
-            </ul>
-          </section>
-        </section>
+        </article>
 
-        <section class="assignment">
-          <header class="header">
-            <span class="badge">Sep. 2007</span>
-            <h2 class="label">Keyneosoft</h2>
+        <article class="graduation">
+          <header>
+            <em class="fa fa-graduation-cap"></em>
+            <span>Formation</span>
           </header>
-          <section class="tags">
-            <span>Java 4</span>
-            <span>Jsf</span>
-            <span>Cxf</span>
-            <span>Hibernate</span>
-            <span>Magicdraw</span>
-            <span>Lucene</span>
-            <span>Maven</span>
-            <span>Svn</span>
-            <span>MySQL</span>
-            <span>Jboss AS</span>
-            <span>Tomcat</span>
-            <span>Apache</span>
+          <section class="whoami">
+            2007 - Master Ingénierie des Logiciels Libres – Université du
+            Littoral Côte d’Opale
           </section>
+        </article>
+
+        <article>
+          <header>
+            <em class="fa fa-industry"></em>
+            <span>Expériences</span>
+            <div class="quote">
+              <em class="fa fa-quote-left"></em>Le savoir est la connaissance
+              acquise par l'étude et par l'expérience.
+              <em class="fa fa-quote-right"></em>
+              <span>Abbé Roubaud</span>
+            </div>
+          </header>
+
+          <section class="assignment">
+            <header>
+              <span class="badge">Mar. 2018</span>
+              <h2 class="label">Adeo - Tech Lead</h2>
+            </header>
+            <section class="projects">
+              <ul>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">Hommy</span> —
+                    <span class="project-description-small"
+                      >Carnet de santé de l'habitation</span
+                    >
+                  </div>
+                  <div class="tags">
+                    <span>Node JS</span>
+                    <span>Express JS</span>
+                    <span>Nest JS</span>
+                    <span>Vue JS</span>
+                    <span>MongoDB</span>
+                    <span>OpenShift</span>
+                    <span>CircleCI</span>
+                    <span>RabbitMQ</span>
+                    <span>Fastlane</span>
+                    <span>Docker</span>
+                    <span>Git</span>
+                    <span>API</span>
+                  </div>
+                  <ul>
+                    <li>
+                      <em class="fa fa-circle"></em> Accompagnement d'une équipe
+                      de 5 développeurs frontend / backend
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement sur les
+                      frontends et backends
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Gestion de l'infrastructure
+                    </li>
+                    <li><em class="fa fa-circle"></em> Gestion du CI / CD</li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </section>
+
+          <section class="assignment">
+            <header>
+              <span class="badge">Sep. 2018</span>
+              <h2 class="label">Adeo - Développeur Backend</h2>
+            </header>
+            <section class="projects">
+              <ul>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">Hommy</span> —
+                    <span class="project-description-small"
+                      >Carnet de santé de l'habitation</span
+                    >
+                  </div>
+                  <div class="tags">
+                    <span>Node JS</span>
+                    <span>Express JS</span>
+                    <span>Nest JS</span>
+                    <span>Vue JS</span>
+                    <span>MongoDB</span>
+                    <span>OpenShift</span>
+                    <span>CircleCI</span>
+                    <span>RabbitMQ</span>
+                    <span>Fastlane</span>
+                    <span>Docker</span>
+                    <span>Git</span>
+                    <span>API</span>
+                  </div>
+                  <ul>
+                    <li>
+                      <em class="fa fa-circle"></em> Sensibilisation des
+                      développeurs aux bonnes pratiques de développement
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement sur le
+                      backend de l'application - Architecture microservice
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Mise en place d'outils de
+                      qualité de code et d'automatisation - Prettier.io, Husky,
+                      Lerna, Lint-staged, Conventional commit
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Mise en place de template
+                      de PR
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Mise en place de la
+                      communication inter-microservices basée sur le messagging
+                      - RabbitMQ
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Mise en place CI/CD pour
+                      les applications mobiles natives - CircleCI, Cordova,
+                      Fastlane
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </section>
+
+          <section class="assignment">
+            <header>
+              <span class="badge">Fev. 2018</span>
+              <h2 class="label">Adeo - Développeur Backend</h2>
+            </header>
+            <section class="projects">
+              <ul>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">OPUS</span> —
+                    <span class="project-description-small"
+                      >Outil de publication omnicannal</span
+                    >
+                  </div>
+                  <div class="tags">
+                    <span>Node JS</span>
+                    <span>Express JS</span>
+                    <span>Couchbase</span>
+                    <span>Elasticsearch</span>
+                    <span>Docker</span>
+                    <span>Rancher</span>
+                    <span>Git</span>
+                    <span>Jenkins</span>
+                    <span>Taurus</span>
+                    <span>Ansible</span>
+                    <span>Shell</span>
+                    <span>DevOps</span>
+                    <span>Api</span>
+                  </div>
+                  <ul>
+                    <li>
+                      <em class="fa fa-circle"></em> Maintenance et évolutions
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Analyse des problématiques
+                      de performance
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </section>
+
+          <section class="assignment">
+            <header>
+              <span class="badge">Avr. 2015</span>
+              <h2 class="label">Auchan — DSI France</h2>
+            </header>
+            <section class="tags">
+              <span>Scrum</span>
+              <span>BDD</span>
+              <span>TDD</span>
+              <span>DevOps</span>
+              <span>Angular JS</span>
+              <span>Angular 2</span>
+              <span>Vue JS</span>
+              <span>Css 3</span>
+              <span>Sass</span>
+              <span>Less</span>
+              <span>Node JS</span>
+              <span>Spring Boot</span>
+              <span>Spring Cloud</span>
+              <span>Hazelcast</span>
+              <span>ELK</span>
+              <span>Docker</span>
+              <span>Rancher</span>
+              <span>Terradata</span>
+              <span>PostGreSQL</span>
+              <span>Git</span>
+              <span>Maven</span>
+              <span>Gulp</span>
+              <span>Webpack</span>
+              <span>Java 8</span>
+              <span>Typescript</span>
+              <span>Nexus</span>
+              <span>Leaflet</span>
+            </section>
+            <section>
+              <p>
+                Au sein du département Business Intelligence, développement en
+                méthode agile d'applications de restitution et de pilotage des
+                indicateurs de ventes et de stock.
+              </p>
+              <p>
+                Je participe au développement, à la mise en production, aux
+                évolutions et à la maintenance des applications dans une
+                architecture micro services.
+              </p>
+              <p>
+                J'interviens à la fois sur les applications Frontend et sur les
+                applications Backend.
+              </p>
+              <p>
+                De part mon intêret pour les nouvelles technologies, je réalise
+                différents POC afin de mettre en place les nouvelles solutions
+                (Ex. VueJS, NodeJS).
+              </p>
+              <p>
+                J'ai réalisé un outil cartographique de restitution des
+                indicateurs de consommation des clients en fonction de leurs
+                comportements d'achat et de leurs situations géographiques afin
+                de mieux cibler les campagnes de marketting.
+              </p>
+              <p>
+                J'accompagne et assiste les développeurs débutants et/ou en
+                formation.
+              </p>
+            </section>
+            <section class="projects">
+              <ul>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">OptiGamme</span> —
+                    <span class="project-description-small"
+                      >Outil de consitution de la gamme des produits
+                      magasin</span
+                    >
+                  </div>
+                  <div class="tags">
+                    <span>Vue JS</span>
+                    <span>Spring Boot</span>
+                  </div>
+                  <ul>
+                    <li>
+                      <em class="fa fa-circle"></em> Mise en place d'une
+                      stratégie de qualité - BDD, TDD, Code Review
+                    </li>
+                  </ul>
+                </li>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">OptiCam</span> —
+                    <span class="project-description-small"
+                      >Outil de planification d'approvisionnement des
+                      stocks</span
+                    >
+                  </div>
+                  <div class="tags">
+                    <span>Angular 2</span>
+                    <span>Spring Boot</span>
+                  </div>
+                </li>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">Synapse</span> —
+                    <span class="project-description-small"
+                      >Outil d'analyse des flux de la plateforme
+                      d'échanges</span
+                    >
+                  </div>
+                  <div class="tags">
+                    <span>Vue JS</span>
+                    <span>Node JS</span>
+                  </div>
+                </li>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">Pilot</span> —
+                    <span class="project-description-small"
+                      >Outil d'aide au pilotage des stocks et des ventes</span
+                    >
+                  </div>
+                  <div class="tags">
+                    <span>Angular JS</span>
+                    <span>Spring Boot</span>
+                  </div>
+                  <ul>
+                    <li>
+                      <em class="fa fa-circle"></em> Migration d’une
+                      architecture monolithique en architecture micro services
+                    </li>
+                  </ul>
+                </li>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">Datastore</span> —
+                    <span class="project-description-small"
+                      >Outil geomarketing d'analyse des ventes et de ciblage des
+                      clients</span
+                    >
+                  </div>
+                  <div class="tags">
+                    <span>Angular JS</span>
+                    <span>Spring Boot</span>
+                    <span>Leaflet</span>
+                    <span>Mapbox</span>
+                    <span>OpenStreetMap</span>
+                  </div>
+                  <ul>
+                    <li>
+                      <em class="fa fa-circle"></em> Recueil des besoins
+                      fonctionnels auprès des équipes métiers
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Elaboration du Product
+                      Backlog
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Planification des Sprints
+                      (2 semaines)
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Intégration d’un module
+                      cartographique au moyen des outils MapBox / Leaflet, basé
+                      sur les Iris dans un 1er temps puis migrations vers les
+                      Carreaux
+                    </li>
+                    <li><em class="fa fa-circle"></em> Animation des démos</li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </section>
+
+          <section class="assignment">
+            <header class="header">
+              <span class="badge">Nov. 2014</span>
+              <h2 class="label">Auchan — DSI Pays de l’Est</h2>
+            </header>
+            <section class="tags">
+              <span>Scrum</span>
+              <span>Struts</span>
+              <span>Spring IOC</span>
+              <span>Hibernate</span>
+              <span>Tomcat</span>
+              <span>Oracle</span>
+              <span>Maven</span>
+              <span>Svn</span>
+              <span>Java 6</span>
+            </section>
+            <section>
+              <p>
+                Dans le cadre de la refonte de l’outil de gestion des
+                négociations, contrats & facturation de ressources,
+                développement et maintenance sur les parties Front et Back en
+                méthode agile
+              </p>
+            </section>
+            <section class="projects">
+              <ul>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">ANEE</span> —
+                    <span class="project-description-small"
+                      >Achats et Négocations pour l’Europe de l’Est</span
+                    >
+                  </div>
+                  <ul>
+                    <li>
+                      <em class="fa fa-circle"></em> Accompagnement à la mise en
+                      place de la méthode scrum (création des Users Story,
+                      création des sprints, outils de suivis, dashboard)
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Evolutions et corrections
+                      sur le lot Gestion des fournisseurs
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement des
+                      fonctionnalités du lot Gestion des objectifs
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </section>
+
+          <section class="assignment">
+            <header class="header">
+              <span class="badge">Sep. 2013</span>
+              <h2 class="label">IT-CE</h2>
+            </header>
+            <section class="tags">
+              <span>Scrum</span>
+              <span>Spring WS</span>
+              <span>Spring IOC</span>
+              <span>Spring Data</span>
+              <span>Spring Batch</span>
+              <span>Maven</span>
+              <span>TFS</span>
+              <span>Power AMC</span>
+              <span>Oracle</span>
+              <span>Tomcat</span>
+              <span>Websphere</span>
+              <span>Java 6</span>
+            </section>
+            <section>
+              <p>
+                Dans le cadre de la mutualisation des SI entre le Crédit Foncier
+                et la Caisse d’Epargne, dans un contexte agile multi-sites,
+                participation au portage de l’application OGREC et à son
+                intégration dans le nouveau SI.
+              </p>
+            </section>
+            <section class="projects">
+              <ul>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">OGREC</span> —
+                    <span class="project-description-small"
+                      >Outil de Gestion de la Relation Client</span
+                    >
+                  </div>
+                  <ul>
+                    <li>
+                      <em class="fa fa-circle"></em> Rédaction des
+                      spécifications sur la base de l'application existante
+                      (Base de données / Moteur attribution)
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Modélisation du nouveau
+                      modèle de données
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement en Java du
+                      moteur d’attribution
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement de
+                      Webservices SOAP
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement de Batchs
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Configuration des serveurs
+                      d’applications Websphere
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Rédaction de documentations
+                      techniques en vue de l’installation des applications sur
+                      les différents environnements (Recette utilisateur,
+                      Qualification, Production)
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </section>
+
+          <section class="assignment">
+            <header class="header">
+              <span class="badge">Sep. 2011</span>
+              <h2 class="label">Decathlon</h2>
+            </header>
+            <section class="tags">
+              <span>Scrum</span>
+              <span>Java 6</span>
+              <span>GWT</span>
+              <span>Spring Mvc</span>
+              <span>Hibernate</span>
+              <span>OC4J</span>
+              <span>SVN</span>
+              <span>Maven</span>
+              <span>Continium</span>
+              <span>Oracle</span>
+              <span>Tomcat</span>
+              <span>Weblogic</span>
+              <span>Google API</span>
+            </section>
+            <section>
+              <p>
+                Au sein du département RH, développement d'applications de
+                planification des ressources humaines en magasin dans un
+                contexte agile
+              </p>
+            </section>
+            <section class="projects">
+              <ul>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">Mytime-Annual</span> —
+                    <span class="project-description-small">
+                      Outil d’aide à la planification hebdomadaire sur une année
+                      sociale. Gestion des congés, des jours de repos et des
+                      absences.</span
+                    >
+                  </div>
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">Mytime-Weekly </span> —
+                    <span class="project-description-small"
+                      >Outil d’aide à la planification horaire sur une semaine.
+                      Gestion par type d’activités, de congés et
+                      d’absences.</span
+                    >
+                  </div>
+                  <ul>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement des
+                      interfaces web avec le framework GWT
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement de la partie
+                      contrôleur avec Spring MVC
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement de la partie
+                      données avec Hibernate
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Tests unitaires, recette,
+                      mise en production, suivi de production
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement de
+                      différentes évolutions
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement d’un module
+                      de synchronisation avec Google Calendar via l’Api Google
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Génération automatique de
+                      Pdfs via IText
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </section>
+
+          <section class="assignment">
+            <header class="header">
+              <span class="badge">Nov. 2009</span>
+              <h2 class="label">Cofisun</h2>
+            </header>
+            <section class="tags">
+              <span>Java 4</span>
+              <span>Struts</span>
+              <span>Spring IOC</span>
+              <span>Hibernate</span>
+              <span>Axis</span>
+              <span>Ajax</span>
+              <span>Maven</span>
+              <span>CVS</span>
+              <span>Svn</span>
+              <span>Oracle</span>
+              <span>Tomcat</span>
+              <span>Weblogic</span>
+            </section>
+            <section>
+              <p>Développement sur l’application Web Cofiweb</p>
+            </section>
+            <section class="projects">
+              <ul>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">CofiWeb</span> —
+                    <span class="project-description-small"
+                      >Outil d’ouverture de crédit prospects et partenaires à
+                      destination de l’Europe Centrale (Hongrie, République
+                      Tchèque)
+                    </span>
+                  </div>
+                  <ul>
+                    <li>
+                      <em class="fa fa-circle"></em> Etude technique (recherche
+                      de solutions et outils techniques en fonction des besoins)
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement des
+                      interfaces web
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement de la partie
+                      métier
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Mise en place du modèle de
+                      données
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Rédaction de manuels
+                      utilisateurs
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Rédaction des
+                      documentations techniques
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Tests unitaires, recette,
+                      mise en production, suivi de production
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </section>
+
+          <section class="assignment">
+            <header class="header">
+              <span class="badge">Nov. 2008</span>
+              <h2 class="label">Crefidis</h2>
+            </header>
+            <section class="tags">
+              <span>Java 4</span>
+              <span>Struts</span>
+              <span>Spring IOC</span>
+              <span>Hibernate</span>
+              <span>Axis</span>
+              <span>Ajax</span>
+              <span>CVS</span>
+              <span>ANT</span>
+              <span>Oracle</span>
+              <span>Jboss AS</span>
+            </section>
+            <section>
+              <p>
+                Dans le cadre de la refonte de l’extranet de financement
+                partenaires, développement de l’application en centre de
+                services
+              </p>
+            </section>
+            <section class="projects">
+              <ul>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">Extranet</span> —
+                    <span class="project-description-small"
+                      >Outil de demande d’ouverture de crédit pour les
+                      partenaires</span
+                    >
+                  </div>
+                  <ul>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement de
+                      l’interface Web
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement de
+                      Webservices
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Maintenance corrective et
+                      évolutive
+                    </li>
+                    <li><em class="fa fa-circle"></em> Tests unitaires</li>
+                    <li>
+                      <em class="fa fa-circle"></em> Recette, mise en
+                      production, suivi, support utilisateur
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Assistance à la mise en
+                      production sur site
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </section>
+
+          <section class="assignment">
+            <header class="header">
+              <span class="badge">Sep. 2007</span>
+              <h2 class="label">Cofidis</h2>
+            </header>
+            <section class="tags">
+              <span>Java 4</span>
+              <span>Struts 1</span>
+              <span>Spring IOC</span>
+              <span>Hibernate</span>
+              <span>cvs</span>
+              <span>Oracle</span>
+              <span>Weblogic</span>
+              <span>Apache</span>
+            </section>
+            <section>
+              <p>
+                Maintenance corrective et évolutive sur les applications
+                1euro.com France et République Tchèque en centre de services
+              </p>
+            </section>
+            <section class="projects">
+              <ul>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">1euro.com</span> —
+                    <span class="project-description-small"
+                      >Solution de paiement en ligne via crédit révolving</span
+                    >
+                  </div>
+                  <ul>
+                    <li>
+                      <em class="fa fa-circle"></em> Intégration du parcours
+                      téléphone et du parcours client à l’application
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement sur l’espace
+                      client
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Tests unitaires, recette,
+                      mise en production et suivi
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Rédaction d’une
+                      documentation fonctionnelle
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </section>
+
+          <section class="assignment">
+            <header class="header">
+              <span class="badge">Sep. 2007</span>
+              <h2 class="label">Keyneosoft</h2>
+            </header>
+            <section class="tags">
+              <span>Java 4</span>
+              <span>Jsf</span>
+              <span>Cxf</span>
+              <span>Hibernate</span>
+              <span>Magicdraw</span>
+              <span>Lucene</span>
+              <span>Maven</span>
+              <span>Svn</span>
+              <span>MySQL</span>
+              <span>Jboss AS</span>
+              <span>Tomcat</span>
+              <span>Apache</span>
+            </section>
+            <section>
+              <p>
+                Développement sur les parties Front et Back de l’application web
+                Keyshopping, en centre de services
+              </p>
+            </section>
+            <section class="projects">
+              <ul>
+                <li class="project">
+                  <div class="project-label">
+                    <em class="fa fa-gear"></em>
+                    <span class="project-name">Keyshopping</span> —
+                    <span class="project-description-small"
+                      >Outil d’assistance et de facilitation de l’acte
+                      d’achat</span
+                    >
+                  </div>
+                  <ul>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement de la partie
+                      Front Office.
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Développement sur la partie
+                      MiddleWare.
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Création de Webservices
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Modifications sur le modèle
+                      de données, optimisation des requêtes
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Optimisations du moteur de
+                      recherche
+                    </li>
+                    <li>
+                      <em class="fa fa-circle"></em> Assistance à la mise en
+                      production sur site.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </section>
+        </article>
+
+        <article class="hobbies">
+          <header>
+            <em class="fa fa-tree"></em>
+            <span>Loisirs</span>
+          </header>
           <section>
-            <p>Développement sur les parties Front et Back de l’application web Keyshopping, en centre de services
-            </p>
-          </section>
-          <section class="projects">
             <ul>
-              <li class="project">
-                <div class="project-label">
-                  <i class="fa fa-gear"></i>
-                  <span class="project-name">Keyshopping</span> —
-                  <span class="project-description-small">Outil d’assistance et de facilitation de l’acte d’achat</span>
-                </div>
-                <ul>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement de la partie Front Office.</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Développement sur la partie MiddleWare.</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Création de Webservices</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Modifications sur le modèle de données, optimisation des requêtes</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Optimisations du moteur de recherche</li>
-                  <li>
-                    <i class="fa fa-circle"></i> Assistance à la mise en production sur site.</li>
-                </ul>
+              <li><em class="fa fa-circle"></em> Trail et course à pied</li>
+              <li>
+                <em class="fa fa-circle"></em> Parapente — Brevet de pilote
+              </li>
+              <li><em class="fa fa-circle"></em> Domotique / Electronique</li>
+              <li>
+                <em class="fa fa-circle"></em> Bénévole dans une association
+                organisant des événements de quartier
               </li>
             </ul>
           </section>
-        </section>
-
-      </article>
-
-      <article class="hobbies">
-        <header>
-          <i class="fa fa-tree"></i>
-          <span>Loisirs</span>
-        </header>
-        <section>
-          <ul>
-            <li>
-              <i class="fa fa-circle"></i> Trail et course à pied</li>
-            <li>
-              <i class="fa fa-circle"></i> Parapente — Brevet de pilote</li>
-            <li>
-              <i class="fa fa-circle"></i> Domotique / Electronique</li>
-            <li>
-              <i class="fa fa-circle"></i> Bénévole dans une association organisant des événements de quartier</li>
-          </ul>
-        </section>
-      </article>
-
-
+        </article>
+      </div>
     </div>
-  </div>
 
-
-
-
-
-
-
-  <!--
-  <section class="icons">
-    <article class="icon">
-      <img alt
-        src='./assets/angular.png' />
-    </article>
-    <article class="icon">
-      <img alt
-        src='./assets/angularjs.png' />
-    </article>
-    <article class="icon">
-      <img alt
-        src='./assets/nodejs.png' />
-    </article>
-    <article class="icon">
-      <img alt
-        src='./assets/spring.png' />
-    </article>
-    <article class="icon">
-      <img alt
-        src='./assets/vue.png' />
-    </article>
-  </section>
-  -->
-  <footer class="main">
-    <i class="fa fa-code"></i> with
-    <i class="fa fa-heart"></i> by Christophe Sailly
-    <i class="fa fa-copyright"></i> 2018
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-</body>
-
+    <footer class="main">
+      <em class="fa fa-code"></em> with <em class="fa fa-heart"></em> by
+      Christophe Sailly <em class="fa fa-copyright"></em> 2019
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  </body>
 </html>
