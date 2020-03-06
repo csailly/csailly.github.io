@@ -1,4 +1,6 @@
 :root {
+  font-size: 62.5%;
+  /* 62.5% of 16px = 10px */
   --Nhexa: 6;
   --gap: 2vw;
   --size: calc(calc(100vw / var(--Nhexa)) - var(--gap));
@@ -11,6 +13,22 @@
   border: 0 none;
   font-family: "Open Sans", sans-serif;
   /* font-family: "Roboto", sans-serif; */ }
+
+@media print {
+  html {
+    font-size: 12px; } }
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 12px; } }
+
+body {
+  font-size: 1.6rem;
+  background-color: rgba(36, 41, 46, 0.15);
+  max-width: 900px;
+  border: solid 1px #adadad;
+  padding: 2px;
+  margin: 2px auto; }
 
 a {
   color: inherit; }
@@ -29,8 +47,6 @@ a:visited {
 
 ul {
   list-style: none; }
-  ul li .fa-circle {
-    font-size: 0.7rem; }
 
 p {
   margin-bottom: 0.7rem;
@@ -42,24 +58,6 @@ p {
 
 .fa-quote-right {
   margin-left: 0.3rem; }
-
-html {
-  font-size: 14px; }
-
-@media print {
-  html {
-    font-size: 12px; } }
-
-@media screen and (max-width: 640px) {
-  html {
-    font-size: 12px; } }
-
-body {
-  background-color: rgba(36, 41, 46, 0.15);
-  max-width: 900px;
-  border: solid 1px #adadad;
-  padding: 2px;
-  margin: 2px auto; }
 
 header.main {
   display: flex; }
@@ -77,10 +75,7 @@ header.main {
     color: #24292e;
     padding: 1rem; }
     header.main .me .identity {
-      font-size: 2rem;
       font-weight: bold; }
-    header.main .me .role {
-      font-size: 1.7rem; }
     header.main .me .quote {
       margin: auto; }
 
@@ -96,7 +91,6 @@ article {
   margin-bottom: 2rem; }
 
 article > header {
-  font-size: 1.5rem;
   border-bottom: solid 1px;
   padding-bottom: 1rem;
   margin-left: 1rem;
@@ -104,7 +98,7 @@ article > header {
   margin-bottom: 1rem; }
 
 article > section {
-  padding: 0 2rem; }
+  padding: 0 1rem; }
 
 .content {
   display: flex; }
@@ -136,21 +130,17 @@ article > section {
 section.contact_me {
   padding-left: 1rem; }
   section.contact_me .fa {
-    font-size: 1.3rem;
     margin-left: 3px;
     margin-right: 3px;
     width: 1.5rem;
     text-align: center; }
   section.contact_me .social_links a {
     padding-right: 0.5rem; }
-  section.contact_me .social_links .fa {
-    font-size: 2rem; }
 
 .skills .skill-section {
   margin-bottom: 0.7rem; }
   .skills .skill-section > header {
-    font-weight: bold;
-    font-size: 1.1rem; }
+    font-weight: bold; }
   .skills .skill-section .skill-section-label {
     margin-bottom: 5px; }
 
@@ -200,9 +190,6 @@ section.contact_me {
     width: 100%; }
   .scale.scale-5 .scale-second {
     width: 0%; }
-
-.quote {
-  font-size: 0.9rem; }
 
 @keyframes gradientswitch {
   0% {
@@ -263,7 +250,6 @@ section.contact_me {
     border-radius: 3px;
     display: inline;
     flex: 0 0 75px;
-    font-size: 0.7rem;
     font-weight: 600;
     margin-right: 0.3rem;
     padding: 0.2rem 0.4rem;
@@ -308,7 +294,6 @@ section.contact_me {
   background-color: #0366d6;
   display: inline;
   flex: 0 0 75px;
-  font-size: 10px;
   font-weight: 600;
   border-radius: 3px;
   margin-right: 8px;
