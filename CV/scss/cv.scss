@@ -1,6 +1,6 @@
 $primary-color: rgba(36, 41, 46, 1);
 $secondary-color: #adadad;
-$badge-color: #0366d6;
+$badge-color: #6898cf;
 
 :root {
   --Nhexa: 6;
@@ -417,7 +417,7 @@ section.contact_me {
 .assignment .badge {
   width: var(--timeline-badge-width);
   text-align: center;
-  background-color: #6f42c1;
+  background-color: #8b6ac6;
   border: solid 1px;
   border-color: #6f42c1;
   border-radius: 3px;
@@ -461,7 +461,7 @@ section.contact_me {
 }
 
 .puce {
-  background-color: #0366d6;
+  background-color: #6898cf;
   display: inline;
   flex: 0 0 75px;
   font-size: 10px;
