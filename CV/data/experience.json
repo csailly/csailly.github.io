@@ -1,0 +1,536 @@
+{
+  "quote": {
+    "text": "Le savoir est la connaissance acquise par l'étude et par l'expérience.",
+    "author": "Abbé Roubaud"
+  },
+  "assignments": [
+    {
+      "badge": "Janv. 2023",
+      "label": "Adeo - Développeur Backend / Tech Lead",
+      "projects": [
+        {
+          "name": "Getslot",
+          "description": "Outil de planification de rendez-vous transporteurs",
+          "tags": [
+            "MongoDB",
+            "Node JS",
+            "Nest JS",
+            "Kafka",
+            "Redis",
+            "Docker",
+            "Git",
+            "Github actions",
+            "API Rest",
+            "Async API",
+            "Datadog",
+            "Terraform",
+            "GKE",
+            "Google Big Query",
+            "PlantUML"
+          ],
+          "intro": "Au sein du domaine logistique, reprise et transformation d'une application de gestion de rendez-vous pour les transporteurs.",
+          "tasks": [
+            "Tech Lead sur la partie backend - 3 développeurs",
+            "Replatforming de l'application",
+            "Mise en place d'une architecture hexagonale",
+            "Mise en place du DDD",
+            "Mise en place du CI/CD",
+            "Suivi des bonnes pratiques de développement",
+            "Refactoring en monolithe",
+            "Création de dashboards Datadog",
+            "Création des schémas d'architecture C4"
+          ]
+        }
+      ]
+    },
+    {
+      "badge": "Fév. 2021",
+      "label": "Adeo - Développeur Backend",
+      "projects": [
+        {
+          "name": "MDM",
+          "description": "Master Data Management",
+          "tags": [
+            "MongoDB",
+            "AtlasSearch",
+            "Node JS",
+            "Adonis JS",
+            "Kafka",
+            "Redis",
+            "OpenShift",
+            "Docker",
+            "Git",
+            "API Rest",
+            "Async API",
+            "Sentry",
+            "Datadog",
+            "Terraform",
+            "GKE",
+            "AKS",
+            "Json Schema",
+            "Google Big Query"
+          ],
+          "intro": "Dans le cadre du décommissionnement de l'ancien référentiel client On Premise, j'ai participé à la mise en place du nouveau référentiel multi-tenant entièrement sur le Cloud",
+          "tasks": [
+            "Développement sur l'api référentiel Client commune aux différentes BUs",
+            "Développement sur l'api Translator qui permet la rétro-compatibilité avec les anciens WebServices SOAP",
+            "Développement sur les différents backend (synchronisation, async api, refresh)",
+            "Optimisation du search",
+            "Optimisation des collections MongoDB"
+          ]
+        }
+      ]
+    },
+    {
+      "badge": "Sept. 2019",
+      "label": "Adeo - Tech Lead",
+      "projects": [
+        {
+          "name": "Iky",
+          "description": "Gestion clients",
+          "tags": [
+            "Node JS",
+            "Express JS",
+            "Vue JS",
+            "OpenShift",
+            "GitlabCI",
+            "Docker",
+            "Git",
+            "API",
+            "Helm",
+            "Sentry",
+            "Datadog",
+            "CI/CD"
+          ],
+          "tasks": [
+            "Accompagnement d'une équipe de 3 développeurs frontend / backend",
+            "Développement sur les frontends et backends",
+            "Gestion de l'infrastructure OpenShift",
+            "Gestion du CI / CD",
+            "Sensibilisation des développeurs aux bonnes pratiques de développement (Unit Tests, TDD, Clean Code, ...)",
+            "Développement sur le backend de l'application",
+            "Mise en place d'outils de qualité de code et d'automatisation - Prettier.io, Husky, Lerna, Lint-staged, Conventional commit, Sentry",
+            "Mise en place de dashboards Datadog",
+            "Refactor / Clean sur le produit legacy",
+            "Mise en place d'une API REST vers SOAP"
+          ]
+        }
+      ]
+    },
+    {
+      "badge": "Mar. 2018",
+      "label": "Adeo - Tech Lead",
+      "projects": [
+        {
+          "name": "Hommy",
+          "description": "Carnet de santé de l'habitation",
+          "tags": [
+            "Node JS",
+            "Express JS",
+            "Nest JS",
+            "Vue JS",
+            "MongoDB",
+            "OpenShift",
+            "CircleCI",
+            "RabbitMQ",
+            "Fastlane",
+            "Docker",
+            "Git",
+            "API"
+          ],
+          "tasks": [
+            "Accompagnement d'une équipe de 5 développeurs frontend / backend",
+            "Développement sur les frontends et backends",
+            "Gestion de l'infrastructure",
+            "Gestion du CI / CD"
+          ]
+        }
+      ]
+    },
+    {
+      "badge": "Sep. 2018",
+      "label": "Adeo - Développeur Backend",
+      "projects": [
+        {
+          "name": "Hommy",
+          "description": "Carnet de santé de l'habitation",
+          "tags": [
+            "Node JS",
+            "Express JS",
+            "Nest JS",
+            "Vue JS",
+            "MongoDB",
+            "OpenShift",
+            "CircleCI",
+            "RabbitMQ",
+            "Fastlane",
+            "Docker",
+            "Git",
+            "API"
+          ],
+          "tasks": [
+            "Sensibilisation des développeurs aux bonnes pratiques de développement",
+            "Développement sur le backend de l'application - Architecture microservice",
+            "Mise en place d'outils de qualité de code et d'automatisation - Prettier.io, Husky, Lerna, Lint-staged, Conventional commit",
+            "Mise en place de template de PR",
+            "Mise en place de la communication inter-microservices basée sur le messagging - RabbitMQ",
+            "Mise en place CI/CD pour les applications mobiles natives - CircleCI, Cordova, Fastlane"
+          ]
+        }
+      ]
+    },
+    {
+      "badge": "Fev. 2018",
+      "label": "Adeo - Développeur Backend",
+      "projects": [
+        {
+          "name": "OPUS",
+          "description": "Outil de publication omnicannal",
+          "tags": [
+            "Node JS",
+            "Express JS",
+            "Couchbase",
+            "Elasticsearch",
+            "Docker",
+            "Rancher",
+            "Git",
+            "Jenkins",
+            "Taurus",
+            "Ansible",
+            "Shell",
+            "DevOps",
+            "Api"
+          ],
+          "tasks": [
+            "Maintenance et évolutions",
+            "Analyse des problématiques de performance"
+          ]
+        }
+      ]
+    },
+    {
+      "badge": "Avr. 2015",
+      "label": "Auchan — DSI France",
+      "tags": [
+        "Scrum",
+        "BDD",
+        "TDD",
+        "DevOps",
+        "Angular JS",
+        "Angular 2",
+        "Vue JS",
+        "Css 3",
+        "Sass",
+        "Less",
+        "Node JS",
+        "Spring Boot",
+        "Spring Cloud",
+        "Hazelcast",
+        "ELK",
+        "Docker",
+        "Rancher",
+        "Terradata",
+        "PostGreSQL",
+        "Git",
+        "Maven",
+        "Gulp",
+        "Webpack",
+        "Java 8",
+        "Typescript",
+        "Nexus",
+        "Leaflet"
+      ],
+      "descriptionLines": [
+        "Au sein du département Business Intelligence, développement en méthode agile d'applications de restitution et de pilotage des indicateurs de ventes et de stock.",
+        "Je participe au développement, à la mise en production, aux évolutions et à la maintenance des applications dans une architecture micro services.",
+        "J'interviens à la fois sur les applications Frontend et sur les applications Backend.",
+        "De part mon intêret pour les nouvelles technologies, je réalise différents POC afin de mettre en place les nouvelles solutions (Ex. VueJS, NodeJS).",
+        "J'ai réalisé un outil cartographique de restitution des indicateurs de consommation des clients en fonction de leurs comportements d'achat et de leurs situations géographiques afin de mieux cibler les campagnes de marketting.",
+        "J'accompagne et assiste les développeurs débutants et/ou en formation."
+      ],
+      "projects": [
+        {
+          "name": "OptiGamme",
+          "description": "Outil de consitution de la gamme des produits magasin",
+          "tags": ["Vue JS", "Spring Boot"],
+          "tasks": [
+            "Mise en place d'une stratégie de qualité - BDD, TDD, Code Review"
+          ]
+        },
+        {
+          "name": "OptiCam",
+          "description": "Outil de planification d'approvisionnement des stocks",
+          "tags": ["Angular 2", "Spring Boot"]
+        },
+        {
+          "name": "Synapse",
+          "description": "Outil d'analyse des flux de la plateforme d'échanges",
+          "tags": ["Vue JS", "Node JS"]
+        },
+        {
+          "name": "Pilot",
+          "description": "Outil d'aide au pilotage des stocks et des ventes",
+          "tags": ["Angular JS", "Spring Boot"],
+          "tasks": [
+            "Migration d'une architecture monolithique en architecture micro services"
+          ]
+        },
+        {
+          "name": "Datastore",
+          "description": "Outil geomarketing d'analyse des ventes et de ciblage des clients",
+          "tags": [
+            "Angular JS",
+            "Spring Boot",
+            "Leaflet",
+            "Mapbox",
+            "OpenStreetMap"
+          ],
+          "tasks": [
+            "Recueil des besoins fonctionnels auprès des équipes métiers",
+            "Elaboration du Product Backlog",
+            "Planification des Sprints (2 semaines)",
+            "Intégration d'un module cartographique au moyen des outils MapBox / Leaflet, basé sur les Iris dans un 1er temps puis migrations vers les Carreaux",
+            "Animation des démos"
+          ]
+        }
+      ]
+    },
+    {
+      "badge": "Nov. 2014",
+      "label": "Auchan — DSI Pays de l'Est",
+      "tags": [
+        "Scrum",
+        "Struts",
+        "Spring IOC",
+        "Hibernate",
+        "Tomcat",
+        "Oracle",
+        "Maven",
+        "Svn",
+        "Java 6"
+      ],
+      "descriptionLines": [
+        "Dans le cadre de la refonte de l'outil de gestion des négociations, contrats & facturation de ressources, développement et maintenance sur les parties Front et Back en méthode agile"
+      ],
+      "projects": [
+        {
+          "name": "ANEE",
+          "description": "Achats et Négocations pour l'Europe de l'Est",
+          "tasks": [
+            "Accompagnement à la mise en place de la méthode scrum (création des Users Story, création des sprints, outils de suivis, dashboard)",
+            "Evolutions et corrections sur le lot Gestion des fournisseurs",
+            "Développement des fonctionnalités du lot Gestion des objectifs"
+          ]
+        }
+      ]
+    },
+    {
+      "badge": "Sep. 2013",
+      "label": "IT-CE",
+      "tags": [
+        "Scrum",
+        "Spring WS",
+        "Spring IOC",
+        "Spring Data",
+        "Spring Batch",
+        "Maven",
+        "TFS",
+        "Power AMC",
+        "Oracle",
+        "Tomcat",
+        "Websphere",
+        "Java 6"
+      ],
+      "descriptionLines": [
+        "Dans le cadre de la mutualisation des SI entre le Crédit Foncier et la Caisse d'Epargne, dans un contexte agile multi-sites, participation au portage de l'application OGREC et à son intégration dans le nouveau SI."
+      ],
+      "projects": [
+        {
+          "name": "OGREC",
+          "description": "Outil de Gestion de la Relation Client",
+          "tasks": [
+            "Rédaction des spécifications sur la base de l'application existante (Base de données / Moteur attribution)",
+            "Modélisation du nouveau modèle de données",
+            "Développement en Java du moteur d'attribution",
+            "Développement de Webservices SOAP",
+            "Développement de Batchs",
+            "Configuration des serveurs d'applications Websphere",
+            "Rédaction de documentations techniques en vue de l'installation des applications sur les différents environnements (Recette utilisateur, Qualification, Production)"
+          ]
+        }
+      ]
+    },
+    {
+      "badge": "Sep. 2011",
+      "label": "Decathlon",
+      "tags": [
+        "Scrum",
+        "Java 6",
+        "GWT",
+        "Spring Mvc",
+        "Hibernate",
+        "OC4J",
+        "SVN",
+        "Maven",
+        "Continium",
+        "Oracle",
+        "Tomcat",
+        "Weblogic",
+        "Google API"
+      ],
+      "descriptionLines": [
+        "Au sein du département RH, développement d'applications de planification des ressources humaines en magasin dans un contexte agile"
+      ],
+      "projects": [
+        {
+          "name": "Mytime-Annual",
+          "description": "Outil d'aide à la planification hebdomadaire sur une année sociale. Gestion des congés, des jours de repos et des absences.",
+          "tasks": [
+            "Développement des interfaces web avec le framework GWT",
+            "Développement de la partie contrôleur avec Spring MVC",
+            "Développement de la partie données avec Hibernate",
+            "Tests unitaires, recette, mise en production, suivi de production",
+            "Développement de différentes évolutions",
+            "Développement d'un module de synchronisation avec Google Calendar via l'Api Google",
+            "Génération automatique de Pdfs via IText"
+          ]
+        },
+        {
+          "name": "Mytime-Weekly",
+          "description": "Outil d'aide à la planification horaire sur une semaine. Gestion par type d'activités, de congés et d'absences."
+        }
+      ]
+    },
+    {
+      "badge": "Nov. 2009",
+      "label": "Cofisun",
+      "tags": [
+        "Java 4",
+        "Struts",
+        "Spring IOC",
+        "Hibernate",
+        "Axis",
+        "Ajax",
+        "Maven",
+        "CVS",
+        "Svn",
+        "Oracle",
+        "Tomcat",
+        "Weblogic"
+      ],
+      "descriptionLines": ["Développement sur l'application Web Cofiweb"],
+      "projects": [
+        {
+          "name": "CofiWeb",
+          "description": "Outil d'ouverture de crédit prospects et partenaires à destination de l'Europe Centrale (Hongrie, République Tchèque)",
+          "tasks": [
+            "Etude technique (recherche de solutions et outils techniques en fonction des besoins)",
+            "Développement des interfaces web",
+            "Développement de la partie métier",
+            "Mise en place du modèle de données",
+            "Rédaction de manuels utilisateurs",
+            "Rédaction des documentations techniques",
+            "Tests unitaires, recette, mise en production, suivi de production"
+          ]
+        }
+      ]
+    },
+    {
+      "badge": "Nov. 2008",
+      "label": "Crefidis",
+      "tags": [
+        "Java 4",
+        "Struts",
+        "Spring IOC",
+        "Hibernate",
+        "Axis",
+        "Ajax",
+        "CVS",
+        "ANT",
+        "Oracle",
+        "Jboss AS"
+      ],
+      "descriptionLines": [
+        "Dans le cadre de la refonte de l'extranet de financement partenaires, développement de l'application en centre de services"
+      ],
+      "projects": [
+        {
+          "name": "Extranet",
+          "description": "Outil de demande d'ouverture de crédit pour les partenaires",
+          "tasks": [
+            "Développement de l'interface Web",
+            "Développement de Webservices",
+            "Maintenance corrective et évolutive",
+            "Tests unitaires",
+            "Recette, mise en production, suivi, support utilisateur",
+            "Assistance à la mise en production sur site"
+          ]
+        }
+      ]
+    },
+    {
+      "badge": "Sep. 2007",
+      "label": "Cofidis",
+      "tags": [
+        "Java 4",
+        "Struts 1",
+        "Spring IOC",
+        "Hibernate",
+        "cvs",
+        "Oracle",
+        "Weblogic",
+        "Apache"
+      ],
+      "descriptionLines": [
+        "Maintenance corrective et évolutive sur les applications 1euro.com France et République Tchèque en centre de services"
+      ],
+      "projects": [
+        {
+          "name": "1euro.com",
+          "description": "Solution de paiement en ligne via crédit révolving",
+          "tasks": [
+            "Intégration du parcours téléphone et du parcours client à l'application",
+            "Développement sur l'espace client",
+            "Tests unitaires, recette, mise en production et suivi",
+            "Rédaction d'une documentation fonctionnelle"
+          ]
+        }
+      ]
+    },
+    {
+      "badge": "Sep. 2007",
+      "label": "Keyneosoft",
+      "tags": [
+        "Java 4",
+        "Jsf",
+        "Cxf",
+        "Hibernate",
+        "Magicdraw",
+        "Lucene",
+        "Maven",
+        "Svn",
+        "MySQL",
+        "Jboss AS",
+        "Tomcat",
+        "Apache"
+      ],
+      "descriptionLines": [
+        "Développement sur les parties Front et Back de l'application web Keyshopping, en centre de services"
+      ],
+      "projects": [
+        {
+          "name": "Keyshopping",
+          "description": "Outil d'assistance et de facilitation de l'acte d'achat",
+          "tasks": [
+            "Développement de la partie Front Office.",
+            "Développement sur la partie MiddleWare.",
+            "Création de Webservices",
+            "Modifications sur le modèle de données, optimisation des requêtes",
+            "Optimisations du moteur de recherche",
+            "Assistance à la mise en production sur site."
+          ]
+        }
+      ]
+    }
+  ]
+}

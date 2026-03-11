@@ -1,0 +1,98 @@
+{
+  "quote": {
+    "text": "On se lasse de tout, excepté d'apprendre.",
+    "author": "Virgile"
+  },
+  "sections": [
+    {
+      "label": "Langages",
+      "items": [
+        "Javascript",
+        "TypeScript",
+        "Java",
+        "HTML5",
+        "CSS3",
+        "Less",
+        "Sass",
+        "Php",
+        "Python"
+      ]
+    },
+    {
+      "label": "Frameworks",
+      "items": [
+        "Node JS",
+        "Express JS",
+        "Nest JS",
+        "Vue JS",
+        "Angular JS",
+        "Angular",
+        "Electron JS",
+        "Leaflet",
+        "Spring Boot",
+        "Spring Cloud",
+        "Spring Mvc"
+      ]
+    },
+    {
+      "label": "Devops",
+      "items": [
+        "Terraform",
+        "Datadog",
+        "Github actions",
+        "CircleCI",
+        "GitlabCI",
+        "Jenkins",
+        "Logstash",
+        "Kibana",
+        "Docker",
+        "Rancher",
+        "OpenShift",
+        "Helm",
+        "Gke"
+      ]
+    },
+    {
+      "label": "Bases de données",
+      "items": [
+        "MongoDB",
+        "Oracle",
+        "PostgreSQL",
+        "Teradata",
+        "Couchbase",
+        "Google Big Query"
+      ]
+    },
+    {
+      "label": "Outils",
+      "items": [
+        "Git",
+        "Gitlab",
+        "Gitflow",
+        "Svn",
+        "Nexus",
+        "Maven",
+        "Bower",
+        "Npm",
+        "Gulp",
+        "Webpack",
+        "ElasticSearch",
+        "Mongo Atlas Search"
+      ]
+    },
+    {
+      "label": "Environements",
+      "items": [
+        "Linux(Debian likes)",
+        "MacOs",
+        "Eclipse",
+        "IntelliJ",
+        "Visual Studio Code"
+      ]
+    },
+    {
+      "label": "Méthodes",
+      "items": ["Méthodes agiles", "Scrum", "BDD", "TDD"]
+    }
+  ]
+}
