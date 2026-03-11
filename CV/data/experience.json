@@ -10,35 +10,42 @@
       "projects": [
         {
           "name": "Getslot",
-          "description": "Outil de planification de rendez-vous transporteurs",
+          "description": "Outil de planification de rendez-vous à destination des fournisseurs et transporteurs",
           "tags": [
-            "MongoDB",
-            "Node JS",
-            "Nest JS",
-            "Kafka",
-            "Redis",
+            "Async API",
+            "BDD",
+            "CQRS",
+            "Datadog",
+            "DDD",
             "Docker",
             "Git",
             "Github actions",
-            "API Rest",
-            "Async API",
-            "Datadog",
-            "Terraform",
             "GKE",
             "Google Big Query",
-            "PlantUML"
+            "Hexagonal architecture",
+            "Kafka",
+            "MongoDB",
+            "Nest JS",
+            "Node JS",
+            "PlantUML",
+            "Redis",
+            "Terraform"
           ],
-          "intro": "Au sein du domaine logistique, reprise et transformation d'une application de gestion de rendez-vous pour les transporteurs.",
+          "intro": "Au sein du domaine logistique, reprise et transformation d'une application de gestion de rendez-vous pour les fournisseurs et transporteurs.",
           "tasks": [
             "Tech Lead sur la partie backend - 3 développeurs",
             "Replatforming de l'application",
+            "Refactoring en monolithe",
             "Mise en place d'une architecture hexagonale",
             "Mise en place du DDD",
+            "Mise en place des patterns CQRS et Outbox",
             "Mise en place du CI/CD",
             "Suivi des bonnes pratiques de développement",
-            "Refactoring en monolithe",
             "Création de dashboards Datadog",
-            "Création des schémas d'architecture C4"
+            "Suivi et optimisation de la performance de l'application",
+            "Création des schémas d'architecture C4",
+            "Gestion de l'infrastructure au moyen de Terraform et GKE",
+            "Mise en place des tests fonctionnels et d'intégration au moyen de Cucumber et Gherkin"
           ]
         }
       ]
