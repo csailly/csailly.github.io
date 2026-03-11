@@ -1,5 +1,7 @@
 (function () {
-  fetch('./data/experience.json')
+  fetch('./data/experience.json', {
+    cache: 'no-store',
+  })
     .then(function (response) {
       return response.json();
     })

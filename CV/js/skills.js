@@ -1,5 +1,7 @@
 (function () {
-  fetch('./data/skills.json')
+  fetch('./data/skills.json', {
+    cache: 'no-store',
+  })
     .then(function (response) {
       return response.json();
     })
@@ -35,7 +37,7 @@
       section.appendChild(sectionHeader);
 
       section.appendChild(
-        document.createTextNode(skillSection.items.join(', '))
+        document.createTextNode(skillSection.items.join(', ')),
       );
 
       article.appendChild(section);
