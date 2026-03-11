@@ -1,2 +1,8 @@
 *.iml
 .git-ftp-ignore
+node_modules
+.DS_Store
+.idea
+.vscode
+dist
+coverage
