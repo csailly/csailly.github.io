@@ -40,6 +40,7 @@
             "Mise en place du DDD",
             "Mise en place des patterns CQRS et Outbox",
             "Mise en place du CI/CD",
+            "Mise en place du Trunk based development",
             "Suivi des bonnes pratiques de développement",
             "Création de dashboards Datadog",
             "Suivi et optimisation de la performance de l'application",
