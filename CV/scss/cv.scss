@@ -597,14 +597,40 @@ footer.main {
     grid-template-columns: 1fr;
   }
 
-  .content-left {
-    border-right: none;
-    border-bottom: 1px solid var(--border-color);
-    padding: 1.5rem;
+  .content-left,
+  .content-right {
+    display: contents;
   }
 
-  .content-right {
+  .contact {
+    order: 1;
     padding: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .about {
+    order: 2;
+    padding: 0 1.5rem;
+  }
+
+  .graduation {
+    order: 3;
+    padding: 0 1.5rem;
+  }
+
+  .skills {
+    order: 4;
+    padding: 0 1.5rem;
+  }
+
+  #experience {
+    order: 5;
+    padding: 0 1.5rem;
+  }
+
+  .hobbies {
+    order: 6;
+    padding: 0 1.5rem;
   }
 
   section.contact_me .social_links {
