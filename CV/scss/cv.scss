@@ -685,8 +685,23 @@ footer.main {
 
 // -- Print
 @media print {
+  :root {
+    --bg-primary: white;
+    --bg-card: #f6f6f6;
+    --text-primary: #1a1a1a;
+    --text-secondary: #444;
+    --border-color: #ddd;
+    --accent-cyan: #0055aa;
+    --accent-violet: #5522aa;
+    --accent-green: #1a7a1a;
+    --tag-bg: rgba(0, 85, 170, 0.08);
+    --tag-border: rgba(0, 85, 170, 0.25);
+    --glow-cyan: transparent;
+    --glow-violet: transparent;
+  }
+
   html {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   body {
@@ -695,45 +710,127 @@ footer.main {
     max-width: 100%;
   }
 
-  .progress-container,
-  .animate-on-scroll {
+  // Hide progress bar only
+  .progress-container {
     display: none;
   }
 
-  :root {
-    --bg-primary: white;
-    --bg-card: #f6f6f6;
-    --text-primary: #1a1a1a;
-    --text-secondary: #555;
-    --border-color: #ddd;
-    --accent-cyan: #0066cc;
-    --accent-violet: #6633cc;
-    --accent-green: #228b22;
+  // Override scroll animations — make everything visible for print
+  .animate-on-scroll {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
   }
 
-  header.main .myface img {
-    border-color: #ccc;
-    box-shadow: none;
-  }
-
-  header.main .me .identity {
-    -webkit-text-fill-color: #1a1a1a;
-    background: none;
-  }
-
-  .assignment .projects .project {
-    break-inside: avoid;
-
-    &:hover {
-      box-shadow: none;
-    }
+  // Single column layout for print
+  .content {
+    display: block;
   }
 
   .content-left {
-    border-right: 1px solid #ddd;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+  }
+
+  .content-right {
+    padding: 1rem 0;
+  }
+
+  // Header
+  header.main {
+    padding: 1rem 0;
+    background: none;
+    border-bottom: 2px solid #1a1a1a;
+
+    .myface img {
+      width: 80px;
+      height: 80px;
+      border-color: #ccc;
+      box-shadow: none;
+    }
+
+    .me .identity {
+      -webkit-text-fill-color: #1a1a1a;
+      background: none;
+      font-size: 1.8rem;
+    }
+
+    .me .role {
+      color: #444;
+    }
+  }
+
+  // Hide social links and footer
+  section.contact_me .social_links {
+    display: none;
   }
 
   footer.main {
+    display: none;
+  }
+
+  // Skills — compact
+  .skills .skill-section {
+    margin-bottom: 0.8rem;
+
+    .skill-pills span {
+      font-size: 0.7rem;
+      padding: 0.1rem 0.4rem;
+
+      &:hover {
+        box-shadow: none;
+      }
+    }
+  }
+
+  // Sections — avoid breaks
+  article {
+    break-inside: avoid;
+    margin-bottom: 1rem;
+
+    > header {
+      border-bottom-color: #ddd;
+    }
+  }
+
+  // Timeline
+  .assignment {
+    break-inside: avoid;
+    padding: 0.8rem 0 0.8rem 1rem;
+
+    .badge {
+      background: #f0f0f0;
+      border-color: #ccc;
+      color: #5522aa;
+    }
+
+    > header::before {
+      background: #ccc !important;
+      opacity: 1;
+    }
+
+    .projects .project {
+      break-inside: avoid;
+      border-color: #ddd;
+      box-shadow: none;
+
+      &:hover {
+        box-shadow: none;
+        border-color: #ddd;
+      }
+    }
+  }
+
+  // Graduation
+  .graduation section {
     background: #f6f6f6;
+    border-left-color: #1a7a1a;
+  }
+
+  // Links — show URL for important links
+  a[href^="mailto:"]::after,
+  a[href^="tel:"]::after {
+    content: none; // email and phone are already visible as text
   }
 }
