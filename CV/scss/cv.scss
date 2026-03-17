@@ -457,7 +457,7 @@ section.contact_me {
 .assignment .badge {
   width: var(--timeline-badge-width);
   text-align: center;
-  background: linear-gradient(135deg, rgba(188, 140, 255, 0.2), rgba(88, 166, 255, 0.2));
+  background: linear-gradient(135deg, rgba(188, 140, 255, 0.2), rgba(88, 166, 255, 0.2)), var(--bg-primary);
   border: 1px solid rgba(188, 140, 255, 0.3);
   border-radius: 6px;
   padding: 0.3rem 0.5rem;
