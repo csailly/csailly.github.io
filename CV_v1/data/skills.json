@@ -1,0 +1,69 @@
+{
+  "quote": {
+    "text": "On se lasse de tout, excepté d'apprendre.",
+    "author": "Virgile"
+  },
+  "sections": [
+    {
+      "label": "Architecture & Patterns",
+      "items": [
+        "Architecture hexagonale",
+        "CQRS",
+        "Domain-Driven Design (DDD)",
+        "Outbox pattern",
+        "Event sourcing"
+      ]
+    },
+    {
+      "label": "Méthodes",
+      "items": ["Méthodes agiles", "Scrum", "BDD", "TDD"]
+    },
+    {
+      "label": "Langages",
+      "items": ["Java", "Javascript", "TypeScript", "Bash / Shell scripting"]
+    },
+    {
+      "label": "Tests & Qualité de code",
+      "items": ["TDD", "BDD", "Gherkin", "Cucumber", "Istanbul", "SonarQube"]
+    },
+    {
+      "label": "Frameworks",
+      "items": ["Spring", "Nest JS", "Vue JS", "Node JS"]
+    },
+    {
+      "label": "Messagerie & Streaming événementiel",
+      "items": ["Kafka"]
+    },
+    {
+      "label": "Bases de données & Cache",
+      "items": [
+        "ElasticSearch",
+        "Google Big Query",
+        "Mongo Atlas Search",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    {
+      "label": "Cloud & Infrastructure",
+      "items": [
+        "Terraform",
+        "Datadog",
+        "Github actions",
+        "Docker",
+        "Helm",
+        "Google Cloud Platform (GCP)"
+      ]
+    },
+    {
+      "label": "Environnements",
+      "items": [
+        "Linux(Debian likes)",
+        "MacOs",
+        "IntelliJ",
+        "Visual Studio Code"
+      ]
+    }
+  ]
+}
