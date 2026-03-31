@@ -31,7 +31,10 @@
             "Redis",
             "Terraform"
           ],
-          "intro": "Au sein du domaine logistique, reprise et transformation d'une application de gestion de rendez-vous pour les fournisseurs et transporteurs.",
+          "intro": [
+            "Au sein du domaine logistique et transport, reprise et transformation d'une application de gestion de rendez-vous pour les fournisseurs et transporteurs à destination des différentes BUs internationales du groupe Adeo (Leroy Merlin, Bricoman, ...)",
+            "Refactorisation des différents microservices en monolithe au moyen du DDD, de l'architecture hexagonale, et de CQRS"
+          ],
           "tasks": [
             "Tech Lead sur la partie backend - 3 développeurs",
             "Replatforming de l'application",

@@ -16,9 +16,15 @@
         ? `<div class="tags">${renderTags(project.tags)}</div>`
         : '';
 
-    const introHtml = project.intro
-      ? `<p>${escapeHtml(project.intro)}</p>`
-      : '';
+    const introLines = Array.isArray(project.intro)
+      ? project.intro
+      : project.intro
+        ? [project.intro]
+        : [];
+    const introHtml =
+      introLines.length > 0
+        ? introLines.map((line) => `<p>${escapeHtml(line)}</p>`).join('')
+        : '';
 
     const tasksHtml =
       project.tasks?.length > 0
