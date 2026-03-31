@@ -149,6 +149,32 @@ header.main {
   }
 }
 
+// -- Download CV link
+.download-cv {
+  position: absolute;
+  top: 1.2rem;
+  right: calc(1.2rem + 38px + 0.6rem);
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: var(--accent-cyan);
+    border-color: var(--accent-cyan);
+    box-shadow: 0 0 12px var(--glow-cyan);
+    transform: scale(1.1);
+  }
+}
+
 // -- Theme toggle
 .theme-toggle {
   position: absolute;
@@ -774,9 +800,10 @@ footer.main {
     max-width: 100%;
   }
 
-  // Hide progress bar, theme toggle
+  // Hide progress bar, theme toggle, download link
   .progress-container,
-  .theme-toggle {
+  .theme-toggle,
+  .download-cv {
     display: none;
   }
 
